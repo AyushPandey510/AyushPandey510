@@ -1,0 +1,68 @@
+{
+  "username": "AyushPandey510",
+  "name": "Ayush Pandey",
+  "headline": "Full-stack engineer. I build what I like.",
+  "timezone": "Asia/Kolkata",
+  "author_emails": [
+    "ayushgauravpandey@gmail.com"
+  ],
+  "featured": [
+    "anonymous",
+    "expense_calc",
+    "LifeEngine",
+    "PDF-QA-RAG-OLLAMA-llama3",
+    "Procrastinator",
+    "SwiftShare"
+  ],
+  "hide": [
+    "AyushPandey510"
+  ],
+  "overrides": {
+    "LifeEngine": {
+      "title": "LifeEngine AI",
+      "tagline": "Chat with your future self. FastAPI, Postgres, Redis, Celery, FAISS memory, React.",
+      "category": "ai"
+    },
+    "PDF-QA-RAG-OLLAMA-llama3": {
+      "title": "PDF-QA RAG",
+      "tagline": "Ask a PDF anything, answered only from its text. MiniLM embeddings, FAISS, Llama 3 via Ollama.",
+      "category": "ai"
+    },
+    "Procrastinator": {
+      "category": "tools"
+    },
+    "anonymous": {
+      "title": "Space",
+      "tagline": "Anonymous, location-gated chat rooms. Rust/Axum geofence engine + Flutter app.",
+      "category": "realtime"
+    },
+    "SwiftShare": {
+      "tagline": "Send a file, share a 6-char code. Rust/warp API, React web, Flutter + Electron clients.",
+      "category": "realtime",
+      "live": "https://swift-share-tau.vercel.app"
+    },
+    "expense_calc": {
+      "title": "XpenseCalc",
+      "tagline": "Reads bank SMS, parses UPI/debit/credit and charts your spending. Flutter + SQLite.",
+      "category": "mobile"
+    },
+    "Phis_Shield": {
+      "title": "PhisGuard",
+      "tagline": "Chrome extension + Flask API that scores URLs & emails with scikit-learn and threat intel.",
+      "category": "security"
+    },
+    "Rust-Ecom-Api": {
+      "title": "RustCart API",
+      "tagline": "E-commerce backend: Actix Web, Postgres, JWT/RBAC, Razorpay, Swagger.",
+      "category": "backend"
+    },
+    "Zettabyte": {
+      "tagline": "Event manager with QR check-in. FastAPI + SQLAlchemy backend, React/Vite frontend.",
+      "category": "web"
+    },
+    "Portfolio": {
+      "tagline": "Personal site. React, Vite, TypeScript, shadcn/ui, Tailwind.",
+      "category": "web"
+    }
+  }
+}

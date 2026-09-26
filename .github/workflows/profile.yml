@@ -1,0 +1,51 @@
+name: Sync profile README
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"   # every 6 hours
+  workflow_dispatch:           # "Run workflow" button
+  push:
+    branches: [main]
+    paths:
+      - "profile.config.json"
+      - "scripts/**"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build README + SVG widgets
+        env:
+          # Optional: add a fine-grained PAT as repo secret PROFILE_TOKEN for higher rate limits.
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python scripts/build_profile.py
+
+      - name: Contribution graph (muted)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/snake.svg?palette=github-dark&color_snake=#8B949E&color_dots=#1B222C,#263A50,#34536F,#4A6F90,#6E8CA8
+
+      - name: Commit changes
+        run: |
+          git config user.name  "profile-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A README.md assets
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "chore(profile): auto-sync $(date -u +'%Y-%m-%d %H:%M')"
+          git push

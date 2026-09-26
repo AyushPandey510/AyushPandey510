@@ -1,0 +1,251 @@
+<p align="center">
+  <a href="https://portfolio-ayushpandey.vercel.app"><img src="assets/header.svg" width="100%" alt="Ayush Pandey"/></a>
+</p>
+
+<p align="center">
+  <a href="https://portfolio-ayushpandey.vercel.app"><img src="https://img.shields.io/badge/Portfolio-161B22?style=for-the-badge&logo=vercel&logoColor=8B949E" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/ayush-pandey-097027242"><img src="https://img.shields.io/badge/LinkedIn-161B22?style=for-the-badge&logo=linkedin&logoColor=8B949E" alt="LinkedIn"/></a>
+  <a href="mailto:ayushgauravpandey@gmail.com"><img src="https://img.shields.io/badge/Email-161B22?style=for-the-badge&logo=gmail&logoColor=8B949E" alt="Email"/></a>
+  <a href="https://swift-share-tau.vercel.app"><img src="https://img.shields.io/badge/SwiftShare-161B22?style=for-the-badge&logo=vercel&logoColor=8B949E" alt="SwiftShare live"/></a>
+</p>
+
+Backends in **Rust** and **Python**, frontends in **React**, mobile apps in **Flutter**. I pick the stack each problem needs and build it end to end.
+
+## Featured
+<sub>Pinned projects, most recently worked on first. Click a card to open the repo.</sub>
+
+<!-- AUTO:FEATURED:START -->
+<p align="center">
+  <a href="https://github.com/AyushPandey510/SwiftShare"><img src="assets/cards/SwiftShare.svg" width="49%" alt="SwiftShare"/></a>
+  <a href="https://github.com/AyushPandey510/anonymous"><img src="assets/cards/anonymous.svg" width="49%" alt="Space"/></a>
+  <a href="https://github.com/AyushPandey510/expense_calc"><img src="assets/cards/expense_calc.svg" width="49%" alt="XpenseCalc"/></a>
+  <a href="https://github.com/AyushPandey510/LifeEngine"><img src="assets/cards/LifeEngine.svg" width="49%" alt="LifeEngine AI"/></a>
+  <a href="https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3"><img src="assets/cards/PDF-QA-RAG-OLLAMA-llama3.svg" width="49%" alt="PDF-QA RAG"/></a>
+</p>
+<!-- AUTO:FEATURED:END -->
+
+## What I build
+
+```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"monospace","fontSize":"15px","primaryColor":"#161B22","primaryTextColor":"#E6EDF3","primaryBorderColor":"#30363D","lineColor":"#6E7681","secondaryColor":"#161B22","tertiaryColor":"#161B22","clusterBkg":"#0D1117","clusterBorder":"#30363D","edgeLabelBackground":"#0D1117"}}}%%
+flowchart LR
+    ME(("Ayush")):::core
+    ME --> RT["Realtime"]:::rt & AI["AI / RAG"]:::ai & MO["Mobile"]:::mo & BE["Backend"]:::be & SEC["Security"]:::sec & WEB["Web"]:::web
+    RT --> SPACE["Space<br/>Axum · WS · geofence"]:::rt
+    RT --> SS["SwiftShare<br/>warp · QR · 4 clients"]:::rt
+    AI --> LE["LifeEngine AI<br/>FastAPI · FAISS · Groq"]:::ai
+    AI --> RAG["PDF-QA RAG<br/>FAISS · Llama 3"]:::ai
+    MO --> XC["XpenseCalc<br/>SMS parser · sqflite"]:::mo
+    BE --> RC["RustCart API<br/>Actix · Postgres"]:::be
+    SEC --> PG["PhisGuard<br/>Flask · sklearn · ext"]:::sec
+    WEB --> ZB["Zettabyte<br/>FastAPI · React"]:::web
+    WEB --> PF["Portfolio<br/>React · shadcn"]:::web
+
+    classDef core fill:#6E8CA8,stroke:#6E8CA8,color:#0D1117,font-weight:bold
+    classDef rt fill:#161B22,stroke:#6E8CA8,color:#E6EDF3
+    classDef ai fill:#161B22,stroke:#8A7FA8,color:#E6EDF3
+    classDef mo fill:#161B22,stroke:#6F9A82,color:#E6EDF3
+    classDef be fill:#161B22,stroke:#A8906A,color:#E6EDF3
+    classDef sec fill:#161B22,stroke:#A86B6B,color:#E6EDF3
+    classDef web fill:#161B22,stroke:#7A92A8,color:#E6EDF3
+```
+
+<p align="center">
+  <a href="https://github.com/AyushPandey510/anonymous"><kbd>Space</kbd></a>
+  <a href="https://github.com/AyushPandey510/SwiftShare"><kbd>SwiftShare</kbd></a>
+  <a href="https://github.com/AyushPandey510/LifeEngine"><kbd>LifeEngine AI</kbd></a>
+  <a href="https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3"><kbd>PDF-QA RAG</kbd></a>
+  <a href="https://github.com/AyushPandey510/expense_calc"><kbd>XpenseCalc</kbd></a>
+  <a href="https://github.com/AyushPandey510/Rust-Ecom-Api"><kbd>RustCart</kbd></a>
+  <a href="https://github.com/AyushPandey510/Phis_Shield"><kbd>PhisGuard</kbd></a>
+  <a href="https://github.com/AyushPandey510/Zettabyte"><kbd>Zettabyte</kbd></a>
+</p>
+
+## How they work
+<sub>Architecture of the main projects. Expand one.</sub>
+
+<details>
+<summary><b>Space</b>: anonymous chat that only opens when you're physically inside the zone</summary>
+
+```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"monospace","fontSize":"15px","primaryColor":"#161B22","primaryTextColor":"#E6EDF3","primaryBorderColor":"#30363D","lineColor":"#6E7681","secondaryColor":"#161B22","tertiaryColor":"#161B22","clusterBkg":"#0D1117","clusterBorder":"#30363D","edgeLabelBackground":"#0D1117"}}}%%
+flowchart TB
+    APP["Flutter app"] -->|GPS fix + device id| NG["nginx"]
+    NG --> AUTH["Auth<br/>HMAC(device id) → JWT + refresh"]
+    NG --> GEO
+    subgraph GEO["Geofence engine (server-authoritative)"]
+        direction LR
+        S1["median<br/>smoothing"] --> S2["spoof<br/>detection"] --> S3["hysteresis<br/>buffer"] --> S4["validator<br/>active · grace · expired"]
+    end
+    GEO --> CHAT["Chat: REST + WebSocket<br/>replies · reactions · polls"]
+    CHAT --> MOD["Moderation worker<br/>(mpsc)"]
+    CHAT & GEO & AUTH --> PG[("PostgreSQL")]
+    SWEEP["Session sweeper"] --> PG
+```
+
+[→ open repo](https://github.com/AyushPandey510/anonymous)
+</details>
+
+<details>
+<summary><b>SwiftShare</b>: send a file, share a 6-char code</summary>
+
+```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"monospace","fontSize":"15px","primaryColor":"#161B22","primaryTextColor":"#E6EDF3","primaryBorderColor":"#30363D","lineColor":"#6E7681","secondaryColor":"#161B22","tertiaryColor":"#161B22","clusterBkg":"#0D1117","clusterBorder":"#30363D","edgeLabelBackground":"#0D1117"}}}%%
+flowchart LR
+    W["React web<br/>(Vercel)"] & M["Flutter"] & D["Electron"] -->|multipart stream| API["warp API<br/>(Render)"]
+    API --> CODE["6-char code<br/>+ link + QR"]
+    API --> DISK[("files on disk")]
+    API --> DB[("SQLite<br/>expiry · max downloads")]
+    CODE --> R["Receiver"] -->|GET /download/:code| API
+    API -. "WS progress" .-> W
+```
+
+[→ open repo](https://github.com/AyushPandey510/SwiftShare) · [→ live app](https://swift-share-tau.vercel.app)
+</details>
+
+<details>
+<summary><b>LifeEngine AI</b>: talk to your future self</summary>
+
+```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"monospace","fontSize":"15px","primaryColor":"#161B22","primaryTextColor":"#E6EDF3","primaryBorderColor":"#30363D","lineColor":"#6E7681","secondaryColor":"#161B22","tertiaryColor":"#161B22","clusterBkg":"#0D1117","clusterBorder":"#30363D","edgeLabelBackground":"#0D1117"}}}%%
+flowchart LR
+    UI["React + Vite"] -->|/api| F["FastAPI"]
+    F --> A["auth · profile · decisions<br/>insights · documents"]
+    F --> CHAT["chat (streaming)"] --> LLM["Groq LLM"]
+    CHAT <--> MEM[("FAISS<br/>conversation memory")]
+    F --> PG[("PostgreSQL")]
+    F <--> RD[("Redis cache")]
+    F --> CQ["Celery workers<br/>memory + scheduled jobs"] --> MEM
+```
+
+[→ open repo](https://github.com/AyushPandey510/LifeEngine)
+</details>
+
+<details>
+<summary><b>PDF-QA RAG</b>: answers only from the document, or says it doesn't know</summary>
+
+```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"monospace","fontSize":"15px","primaryColor":"#161B22","primaryTextColor":"#E6EDF3","primaryBorderColor":"#30363D","lineColor":"#6E7681","secondaryColor":"#161B22","tertiaryColor":"#161B22","clusterBkg":"#0D1117","clusterBorder":"#30363D","edgeLabelBackground":"#0D1117"}}}%%
+flowchart TB
+    subgraph INGEST["ingest.py"]
+        direction LR
+        PDF["PDF"] --> MU["PyMuPDF"] --> CL["clean"] --> CH["overlapping<br/>chunks"] --> EM["MiniLM-L6-v2<br/>embeddings"] --> IX[("FAISS")]
+    end
+    Q["POST /ask"] --> QE["embed question"] --> IX
+    IX -->|top-k chunks| G{"L2 distance ≤ 1.5?"}
+    G -- yes --> LL["Llama 3 via Ollama"] --> ANS["answer"]
+    G -- no --> NA["'not available in the document'"]
+```
+
+[→ open repo](https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3)
+</details>
+
+<details>
+<summary><b>XpenseCalc</b>: bank SMS in, spending insights out</summary>
+
+```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"monospace","fontSize":"15px","primaryColor":"#161B22","primaryTextColor":"#E6EDF3","primaryBorderColor":"#30363D","lineColor":"#6E7681","secondaryColor":"#161B22","tertiaryColor":"#161B22","clusterBkg":"#0D1117","clusterBorder":"#30363D","edgeLabelBackground":"#0D1117"}}}%%
+flowchart TB
+    SMS["SMS inbox"] --> SYNC["sync range<br/>7d · 90d · 180d · all"] --> P["parser<br/>bank sender · UPI · amount · type"]
+    P --> F{"promo / OTP /<br/>balance-only?"}
+    F -- drop --> X["discard"]
+    F -- keep --> DB[("sqflite<br/>unique(sender, message)")]
+    DB --> L["labels<br/>Food · Rent · Travel…"] --> CH["fl_chart analytics"]
+```
+
+[→ open repo](https://github.com/AyushPandey510/expense_calc)
+</details>
+
+## Activity
+
+<p align="center"><img src="assets/calendar.svg" width="100%" alt="Commit calendar"/></p>
+<p align="center"><img src="assets/radar.svg" width="100%" alt="Commits per week"/></p>
+
+**Latest commits**
+
+<!-- AUTO:COMMITS:START -->
+| When | Repo | Commit |
+|:--|:--|:--|
+| <sub>31m ago</sub> | **SwiftShare** | [`60f0071`](https://github.com/AyushPandey510/SwiftShare/commit/60f0071de0ae27bf5a6cd0ff3b0454113820ae82) fix: flicker issue in uplaod toggle |
+| <sub>35m ago</sub> | **SwiftShare** | [`9b1873b`](https://github.com/AyushPandey510/SwiftShare/commit/9b1873bb8768b89f3aa030bc8ea2e1a539f4ea87) chore: removed unused files and folder |
+| <sub>37m ago</sub> | **SwiftShare** | [`5f89027`](https://github.com/AyushPandey510/SwiftShare/commit/5f89027f4cb92645fc72d0fcf3f0b681a06f77e3) chore: remove duplicate, generated and unused files |
+| <sub>1w ago</sub> | **Space** | [`2de0291`](https://github.com/AyushPandey510/anonymous/commit/2de0291f28df2d22a574bf74c917f8a17f6e20f1) fix: theme based on system by-default and settings page |
+| <sub>1w ago</sub> | **Space** | [`9b277f4`](https://github.com/AyushPandey510/anonymous/commit/9b277f46f1ecf04cebb2700675bebbb7390d3944) fix: relpy message |
+| <sub>1w ago</sub> | **Space** | [`ee4cfed`](https://github.com/AyushPandey510/anonymous/commit/ee4cfed3c643c8b2fa598fb448d2407be6526f04) fix: Add privacy-safe location retention and secure auth storage |
+| <sub>1mo ago</sub> | **XpenseCalc** | [`71977b8`](https://github.com/AyushPandey510/expense_calc/commit/71977b8c428a4dff69cc7899b784c2970bbadb55) update: updated the readme |
+| <sub>1mo ago</sub> | **XpenseCalc** | [`1f48c5b`](https://github.com/AyushPandey510/expense_calc/commit/1f48c5ba3df666d55efd10663ccdb858a54650ee) fix: error message |
+| <sub>1mo ago</sub> | **XpenseCalc** | [`3879f1e`](https://github.com/AyushPandey510/expense_calc/commit/3879f1ee1abc2064292554dfa903c489f2a5a56f) feat: page animation and minor bug fixes |
+| <sub>4mo ago</sub> | **Portfolio** | [`b464c55`](https://github.com/AyushPandey510/Portfolio/commit/b464c55146aad7d49f2510e911c08c024a232cc5) Revise About section for clarity and detail |
+<!-- AUTO:COMMITS:END -->
+
+## Metrics
+
+<p align="center"><img src="assets/rhythm.svg" width="100%" alt="When I commit"/></p>
+<p align="center"><img src="assets/types.svg" width="100%" alt="Commit types"/></p>
+
+<!-- AUTO:PIE:START -->
+```mermaid
+%%{init: {"theme":"base","themeVariables":{"pie1":"#6E8CA8","pie2":"#6F9A82","pie3":"#A8906A","pie4":"#8A7FA8","pie5":"#A86B6B","pie6":"#7A92A8","pie7":"#8C956A","pie8":"#6E7681","pieStrokeColor":"#0D1117","pieStrokeWidth":"2px","pieOuterStrokeColor":"#30363D","pieTitleTextColor":"#E6EDF3","pieSectionTextColor":"#0D1117","pieLegendTextColor":"#E6EDF3","fontFamily":"monospace"}}}%%
+pie showData title Where my commits went, last 12 months
+    "SwiftShare" : 39
+    "Space" : 18
+    "LifeEngine AI" : 13
+    "XpenseCalc" : 7
+    "Portfolio" : 4
+    "PhisGuard" : 3
+    "PDF-QA RAG" : 2
+    "others" : 1
+```
+<!-- AUTO:PIE:END -->
+
+## Project comparison
+
+<p align="center"><img src="assets/compare.svg" width="100%" alt="Project comparison"/></p>
+<p align="center"><img src="assets/timeline.svg" width="100%" alt="Project timeline"/></p>
+
+<details>
+<summary><b>Comparison table</b></summary>
+
+<!-- AUTO:COMPARE:START -->
+| Project | Commits | Active days (12m) | First commit | Latest commit | Main language | Size |
+|:--|--:|--:|:--|:--|:--|--:|
+| [SwiftShare](https://github.com/AyushPandey510/SwiftShare) | 40 | 10 | Aug 2025 | 27 Sep 2026 | `Dart` | 687 KB |
+| [Space](https://github.com/AyushPandey510/anonymous) | 25 | 9 | Jul 2026 | 14 Sep 2026 | `Dart` | 430 KB |
+| [XpenseCalc](https://github.com/AyushPandey510/expense_calc) | 8 | 5 | Sep 2025 | 09 Aug 2026 | `Dart` | 381 KB |
+| [Portfolio](https://github.com/AyushPandey510/Portfolio) | 4 | 2 | Jan 2026 | 07 May 2026 | `TypeScript` | 182 KB |
+| [LifeEngine AI](https://github.com/AyushPandey510/LifeEngine) | 13 | 3 | Apr 2026 | 06 May 2026 | `Python` | 153 KB |
+| [PDF-QA RAG](https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3) | 2 | 2 | Apr 2026 | 02 May 2026 | `Python` | 6 KB |
+| [PhisGuard](https://github.com/AyushPandey510/Phis_Shield) | 3 | 2 | Nov 2025 | 29 Nov 2025 | `Python` | 553 KB |
+| [RustCart API](https://github.com/AyushPandey510/Rust-Ecom-Api) | 5 | 1 | Jul 2025 | 13 Oct 2025 | `Rust` | 139 KB |
+| [Zettabyte](https://github.com/AyushPandey510/Zettabyte) | 3 | 0 | Jul 2025 | 10 Jul 2025 | `TypeScript` | 221 KB |
+<!-- AUTO:COMPARE:END -->
+
+</details>
+
+## Languages
+
+<p align="center"><img src="assets/stack.svg" width="100%" alt="Languages"/></p>
+
+## All repositories
+
+<!-- AUTO:ALL:START -->
+| # | Project | Stack | Last commit | Status |
+|:-:|:--|:--|:--|:-:|
+| 01 | [**SwiftShare**](https://github.com/AyushPandey510/SwiftShare) · [live ↗](https://swift-share-tau.vercel.app)<br><sub>Send a file, share a 6-char code. Rust/warp API, React web, Flutter +…</sub> | `Dart` | [fix: flicker issue in uplaod toggle](https://github.com/AyushPandey510/SwiftShare/commit/60f0071de0ae27bf5a6cd0ff3b0454113820ae82)<br><sub>31m ago</sub> | active |
+| 02 | [**Space**](https://github.com/AyushPandey510/anonymous)<br><sub>Anonymous, location-gated chat rooms. Rust/Axum geofence engine + Flu…</sub> | `Dart` | [fix: theme based on system by-default and set…](https://github.com/AyushPandey510/anonymous/commit/2de0291f28df2d22a574bf74c917f8a17f6e20f1)<br><sub>1w ago</sub> | active |
+| 03 | [**XpenseCalc**](https://github.com/AyushPandey510/expense_calc)<br><sub>Reads bank SMS, parses UPI/debit/credit and charts your spending. Flu…</sub> | `Dart` | [update: updated the readme](https://github.com/AyushPandey510/expense_calc/commit/71977b8c428a4dff69cc7899b784c2970bbadb55)<br><sub>1mo ago</sub> | stable |
+| 04 | [**Portfolio**](https://github.com/AyushPandey510/Portfolio) · [live ↗](https://portfolio-ayushpandey.vercel.app)<br><sub>Personal site. React, Vite, TypeScript, shadcn/ui, Tailwind.</sub> | `TypeScript` | [Revise About section for clarity and detail](https://github.com/AyushPandey510/Portfolio/commit/b464c55146aad7d49f2510e911c08c024a232cc5)<br><sub>4mo ago</sub> | dormant |
+| 05 | [**LifeEngine AI**](https://github.com/AyushPandey510/LifeEngine)<br><sub>Chat with your future self. FastAPI, Postgres, Redis, Celery, FAISS m…</sub> | `Python` | [fix alembic multiple heads and shorten revisi…](https://github.com/AyushPandey510/LifeEngine/commit/e168fbe061ea47eaf8d6e24c66f0362c9558040d)<br><sub>4mo ago</sub> | dormant |
+| 06 | [**PDF-QA RAG**](https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3)<br><sub>Ask a PDF anything, answered only from its text. MiniLM embeddings, F…</sub> | `Python` | [Update README.md](https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3/commit/d5f4e7b3fc9d632d290937b62525a2d5a9684145)<br><sub>4mo ago</sub> | dormant |
+| 07 | [**PhisGuard**](https://github.com/AyushPandey510/Phis_Shield)<br><sub>Chrome extension + Flask API that scores URLs &amp; emails with scikit-le…</sub> | `Python` | [Final Changes before submission](https://github.com/AyushPandey510/Phis_Shield/commit/87ad0f3b2ca1f08e21174ff721982cc6e82106a7)<br><sub>10mo ago</sub> | dormant |
+| 08 | [**RustCart API**](https://github.com/AyushPandey510/Rust-Ecom-Api)<br><sub>E-commerce backend: Actix Web, Postgres, JWT/RBAC, Razorpay, Swagger.</sub> | `Rust` | [swagger sand other errors resolved](https://github.com/AyushPandey510/Rust-Ecom-Api/commit/dd9b7d4b5f083f06035e2572c2dcff9b28a27d20)<br><sub>11mo ago</sub> | dormant |
+| 09 | [**Zettabyte**](https://github.com/AyushPandey510/Zettabyte)<br><sub>Event manager with QR check-in. FastAPI + SQLAlchemy backend, React/V…</sub> | `TypeScript` | [frontend added](https://github.com/AyushPandey510/Zettabyte/commit/a74df207f319234978c4732449daa48e7ba02325)<br><sub>1y ago</sub> | dormant |
+<!-- AUTO:ALL:END -->
+
+<p align="center"><img src="assets/snake.svg" width="100%" alt="Contribution graph"/></p>
+
+<p align="center">
+<!-- AUTO:UPDATED:START -->
+<sub>Updated automatically · 26 Sep 2026, 20:28 UTC</sub>
+<!-- AUTO:UPDATED:END -->
+</p>
