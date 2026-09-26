@@ -16,21 +16,22 @@ permissions:
 
 concurrency:
   group: profile-sync
-  cancel-in-progress: true
+  cancel-in-progress: false    # queue new runs instead of killing the current one
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
       - name: Build README + SVG widgets
         env:
-          # Optional: add a fine-grained PAT as repo secret PROFILE_TOKEN for higher rate limits.
+          # Optional: add a PAT as repo secret PROFILE_TOKEN for higher API rate limits.
           GH_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
         run: python scripts/build_profile.py
 
