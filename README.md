@@ -166,9 +166,9 @@ flowchart TB
 <!-- AUTO:COMMITS:START -->
 | When | Repo | Commit |
 |:--|:--|:--|
-| <sub>23m ago</sub> | **SwiftShare** | [`f50e291`](https://github.com/AyushPandey510/SwiftShare/commit/f50e2910c9e4ac3cf0a8eda10ccd3fa025f30e1c) fix: light and dark mode fixed |
-| <sub>57m ago</sub> | **SwiftShare** | [`60f0071`](https://github.com/AyushPandey510/SwiftShare/commit/60f0071de0ae27bf5a6cd0ff3b0454113820ae82) fix: flicker issue in uplaod toggle |
-| <sub>1h ago</sub> | **SwiftShare** | [`9b1873b`](https://github.com/AyushPandey510/SwiftShare/commit/9b1873bb8768b89f3aa030bc8ea2e1a539f4ea87) chore: removed unused files and folder |
+| <sub>8h ago</sub> | **SwiftShare** | [`b5dddb7`](https://github.com/AyushPandey510/SwiftShare/commit/b5dddb7abae8ed3ac34b6745f41ecb1f44c09e1a) fix: backend startup failure |
+| <sub>8h ago</sub> | **SwiftShare** | [`f50e291`](https://github.com/AyushPandey510/SwiftShare/commit/f50e2910c9e4ac3cf0a8eda10ccd3fa025f30e1c) fix: light and dark mode fixed |
+| <sub>9h ago</sub> | **SwiftShare** | [`60f0071`](https://github.com/AyushPandey510/SwiftShare/commit/60f0071de0ae27bf5a6cd0ff3b0454113820ae82) fix: flicker issue in uplaod toggle |
 | <sub>6d ago</sub> | **gps-mock** | [`c1b7420`](https://github.com/AyushPandey510/gps-mock/commit/c1b7420e11786d2e3ce04d1b5d90388acd849067) fix: build issue in github workflow |
 | <sub>6d ago</sub> | **gps-mock** | [`162b130`](https://github.com/AyushPandey510/gps-mock/commit/162b13032db3b26841593807f0a910b838abfdf2) added privacy-policy screen and fixed minor issues |
 | <sub>6d ago</sub> | **gps-mock** | [`67e7e46`](https://github.com/AyushPandey510/gps-mock/commit/67e7e46967f4feaa5e4bd1760c5484c699bfc4b2) GPS MOCK Location Ready |
@@ -187,7 +187,7 @@ flowchart TB
 ```mermaid
 %%{init: {"theme":"base","themeVariables":{"pie1":"#6E8CA8","pie2":"#6F9A82","pie3":"#A8906A","pie4":"#8A7FA8","pie5":"#A86B6B","pie6":"#7A92A8","pie7":"#8C956A","pie8":"#6E7681","pieStrokeColor":"#0D1117","pieStrokeWidth":"2px","pieOuterStrokeColor":"#30363D","pieTitleTextColor":"#E6EDF3","pieSectionTextColor":"#0D1117","pieLegendTextColor":"#E6EDF3","fontFamily":"monospace"}}}%%
 pie showData title Where my commits went, last 12 months
-    "SwiftShare" : 40
+    "SwiftShare" : 41
     "Space" : 18
     "Placement_study_Material" : 18
     "LifeEngine AI" : 13
@@ -209,7 +209,7 @@ pie showData title Where my commits went, last 12 months
 <!-- AUTO:COMPARE:START -->
 | Project | Commits | Active days (12m) | First commit | Latest commit | Main language | Size |
 |:--|--:|--:|:--|:--|:--|--:|
-| [SwiftShare](https://github.com/AyushPandey510/SwiftShare) | 41 | 10 | Aug 2025 | 26 Sep 2026 | `Dart` | 700 KB |
+| [SwiftShare](https://github.com/AyushPandey510/SwiftShare) | 42 | 10 | Aug 2025 | 26 Sep 2026 | `Dart` | 703 KB |
 | [gps-mock](https://github.com/AyushPandey510/gps-mock) | 3 | 1 | Sep 2026 | 20 Sep 2026 | `Dart` | 512 KB |
 | [Space](https://github.com/AyushPandey510/anonymous) | 25 | 9 | Jul 2026 | 14 Sep 2026 | `Dart` | 461 KB |
 | [FieldTrace](https://github.com/AyushPandey510/FieldTrace) | 1 | 1 | Sep 2026 | 07 Sep 2026 | `Dart` | 294 KB |
@@ -242,7 +242,7 @@ pie showData title Where my commits went, last 12 months
 <!-- AUTO:ALL:START -->
 | # | Project | Stack | Last commit | Status |
 |:-:|:--|:--|:--|:-:|
-| 01 | [**SwiftShare**](https://github.com/AyushPandey510/SwiftShare) · [live ↗](https://swift-share-tau.vercel.app)<br><sub>Send a file, share a 6-char code. Rust/warp API, React web, Flutter +…</sub> | `Dart` | [fix: light and dark mode fixed](https://github.com/AyushPandey510/SwiftShare/commit/f50e2910c9e4ac3cf0a8eda10ccd3fa025f30e1c)<br><sub>23m ago</sub> | active |
+| 01 | [**SwiftShare**](https://github.com/AyushPandey510/SwiftShare) · [live ↗](https://swift-share-tau.vercel.app)<br><sub>Send a file, share a 6-char code. Rust/warp API, React web, Flutter +…</sub> | `Dart` | [fix: backend startup failure](https://github.com/AyushPandey510/SwiftShare/commit/b5dddb7abae8ed3ac34b6745f41ecb1f44c09e1a)<br><sub>8h ago</sub> | active |
 | 02 | [**gps-mock**](https://github.com/AyushPandey510/gps-mock)<br><sub>No description yet.</sub> | `Dart` | [fix: build issue in github workflow](https://github.com/AyushPandey510/gps-mock/commit/c1b7420e11786d2e3ce04d1b5d90388acd849067)<br><sub>6d ago</sub> | active |
 | 03 | [**Space**](https://github.com/AyushPandey510/anonymous)<br><sub>Anonymous, location-gated chat rooms. Rust/Axum geofence engine + Flu…</sub> | `Dart` | [fix: theme based on system by-default and set…](https://github.com/AyushPandey510/anonymous/commit/2de0291f28df2d22a574bf74c917f8a17f6e20f1)<br><sub>1w ago</sub> | active |
 | 04 | [**FieldTrace**](https://github.com/AyushPandey510/FieldTrace)<br><sub>No description yet.</sub> | `Dart` | [Quick Prototye Ready](https://github.com/AyushPandey510/FieldTrace/commit/ac9307ddcb5a7ebf881b348dcd3d3e91f26d7eb3)<br><sub>2w ago</sub> | stable |
@@ -275,6 +275,6 @@ pie showData title Where my commits went, last 12 months
 
 <p align="center">
 <!-- AUTO:UPDATED:START -->
-<sub>Updated automatically · 26 Sep 2026, 20:54 UTC</sub>
+<sub>Updated automatically · 27 Sep 2026, 05:26 UTC</sub>
 <!-- AUTO:UPDATED:END -->
 </p>
