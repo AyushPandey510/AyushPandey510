@@ -166,6 +166,8 @@ flowchart TB
 <!-- AUTO:COMMITS:START -->
 | When | Repo | Commit |
 |:--|:--|:--|
+| <sub>7h ago</sub> | **skill-navigator-hub** | [`4309bae`](https://github.com/AyushPandey510/skill-navigator-hub/commit/4309bae8a30ddada2a83dbd0db8132e84787fced) feat: full ui change |
+| <sub>8h ago</sub> | **skill-navigator-hub** | [`240e2da`](https://github.com/AyushPandey510/skill-navigator-hub/commit/240e2daa5f0f11301bd0f5ba62315824364a8793) fix: made it for everyone |
 | <sub>1d ago</sub> | **Space** | [`0207cd3`](https://github.com/AyushPandey510/anonymous/commit/0207cd3ce3c28e23619d12f4a9d9dd482fef2042) fix: config, envs and docker-ignore |
 | <sub>3d ago</sub> | **SwiftShare** | [`cdba414`](https://github.com/AyushPandey510/SwiftShare/commit/cdba414333e263f970623cd4cdeba2a58f9211c3) feat: added a structured design file in web and dark mode fix |
 | <sub>3d ago</sub> | **SwiftShare** | [`e9f4307`](https://github.com/AyushPandey510/SwiftShare/commit/e9f43071d2d5425179ce680db3d0c3c947c1572f) feat: added a structured design file and dark mode loader fix |
@@ -174,8 +176,6 @@ flowchart TB
 | <sub>1w ago</sub> | **gps-mock** | [`162b130`](https://github.com/AyushPandey510/gps-mock/commit/162b13032db3b26841593807f0a910b838abfdf2) added privacy-policy screen and fixed minor issues |
 | <sub>1w ago</sub> | **gps-mock** | [`67e7e46`](https://github.com/AyushPandey510/gps-mock/commit/67e7e46967f4feaa5e4bd1760c5484c699bfc4b2) GPS MOCK Location Ready |
 | <sub>2w ago</sub> | **Space** | [`2de0291`](https://github.com/AyushPandey510/anonymous/commit/2de0291f28df2d22a574bf74c917f8a17f6e20f1) fix: theme based on system by-default and settings page |
-| <sub>2w ago</sub> | **Space** | [`9b277f4`](https://github.com/AyushPandey510/anonymous/commit/9b277f46f1ecf04cebb2700675bebbb7390d3944) fix: relpy message |
-| <sub>3w ago</sub> | **FieldTrace** | [`ac9307d`](https://github.com/AyushPandey510/FieldTrace/commit/ac9307ddcb5a7ebf881b348dcd3d3e91f26d7eb3) Quick Prototye Ready |
 <!-- AUTO:COMMITS:END -->
 
 ## Metrics
@@ -192,8 +192,8 @@ pie showData title Where my commits went, last 12 months
     "Placement_study_Material" : 18
     "LifeEngine AI" : 13
     "School" : 9
+    "skill-navigator-hub" : 8
     "XpenseCalc" : 7
-    "skill-navigator-hub" : 6
     "others" : 22
 ```
 <!-- AUTO:PIE:END -->
@@ -209,6 +209,7 @@ pie showData title Where my commits went, last 12 months
 <!-- AUTO:COMPARE:START -->
 | Project | Commits | Active days (12m) | First commit | Latest commit | Main language | Size |
 |:--|--:|--:|:--|:--|:--|--:|
+| [skill-navigator-hub](https://github.com/AyushPandey510/skill-navigator-hub) | 21 | 2 | Jan 2025 | 30 Sep 2026 | `TypeScript` | 257 KB |
 | [Space](https://github.com/AyushPandey510/anonymous) | 27 | 10 | Jul 2026 | 29 Sep 2026 | `Dart` | 462 KB |
 | [SwiftShare](https://github.com/AyushPandey510/SwiftShare) | 45 | 10 | Aug 2025 | 27 Sep 2026 | `Dart` | 734 KB |
 | [gps-mock](https://github.com/AyushPandey510/gps-mock) | 3 | 1 | Sep 2026 | 20 Sep 2026 | `Dart` | 512 KB |
@@ -217,7 +218,6 @@ pie showData title Where my commits went, last 12 months
 | [Procastinator](https://github.com/AyushPandey510/Procastinator) | 2 | 2 | Jan 2026 | 26 Jul 2026 | `Makefile` | 615 KB |
 | [School-Management-System](https://github.com/AyushPandey510/School-Management-System) | 1 | 0 | May 2026 | 22 May 2026 | `Dart` | 270 KB |
 | [indiamart-data-engineering-pipeline](https://github.com/AyushPandey510/indiamart-data-engineering-pipeline) | 2 | 2 | Apr 2026 | 19 May 2026 | `Python` | 64 KB |
-| [skill-navigator-hub](https://github.com/AyushPandey510/skill-navigator-hub) | 19 | 1 | Jan 2025 | 07 May 2026 | `TypeScript` | 217 KB |
 | [Portfolio](https://github.com/AyushPandey510/Portfolio) | 4 | 2 | Jan 2026 | 06 May 2026 | `TypeScript` | 182 KB |
 | [LifeEngine AI](https://github.com/AyushPandey510/LifeEngine) | 13 | 3 | Apr 2026 | 05 May 2026 | `Python` | 155 KB |
 | [PDF-QA RAG](https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3) | 2 | 2 | Apr 2026 | 02 May 2026 | `Python` | 6 KB |
@@ -242,15 +242,15 @@ pie showData title Where my commits went, last 12 months
 <!-- AUTO:ALL:START -->
 | # | Project | Stack | Last commit | Status |
 |:-:|:--|:--|:--|:-:|
-| 01 | [**Space**](https://github.com/AyushPandey510/anonymous)<br><sub>Anonymous, location-gated chat rooms. Rust/Axum geofence engine + Flu…</sub> | `Dart` | [fix: config, envs and docker-ignore](https://github.com/AyushPandey510/anonymous/commit/0207cd3ce3c28e23619d12f4a9d9dd482fef2042)<br><sub>1d ago</sub> | active |
-| 02 | [**SwiftShare**](https://github.com/AyushPandey510/SwiftShare) · [live ↗](https://swift-share-tau.vercel.app)<br><sub>Send a file, share a 6-char code. Rust/warp API, React web, Flutter +…</sub> | `Dart` | [feat: added a structured design file in web a…](https://github.com/AyushPandey510/SwiftShare/commit/cdba414333e263f970623cd4cdeba2a58f9211c3)<br><sub>3d ago</sub> | active |
-| 03 | [**gps-mock**](https://github.com/AyushPandey510/gps-mock)<br><sub>No description yet.</sub> | `Dart` | [fix: build issue in github workflow](https://github.com/AyushPandey510/gps-mock/commit/c1b7420e11786d2e3ce04d1b5d90388acd849067)<br><sub>1w ago</sub> | active |
-| 04 | [**FieldTrace**](https://github.com/AyushPandey510/FieldTrace)<br><sub>No description yet.</sub> | `Dart` | [Quick Prototye Ready](https://github.com/AyushPandey510/FieldTrace/commit/ac9307ddcb5a7ebf881b348dcd3d3e91f26d7eb3)<br><sub>3w ago</sub> | stable |
-| 05 | [**XpenseCalc**](https://github.com/AyushPandey510/expense_calc)<br><sub>Reads bank SMS, parses UPI/debit/credit and charts your spending. Flu…</sub> | `Dart` | [update: updated the readme](https://github.com/AyushPandey510/expense_calc/commit/71977b8c428a4dff69cc7899b784c2970bbadb55)<br><sub>1mo ago</sub> | stable |
-| 06 | [**Procastinator**](https://github.com/AyushPandey510/Procastinator)<br><sub>No description yet.</sub> | `Makefile` | [fix:resolved bugs](https://github.com/AyushPandey510/Procastinator/commit/0421924b70d957f609741e70d8b2a3a3cd81157e)<br><sub>2mo ago</sub> | stable |
-| 07 | [**School-Management-System**](https://github.com/AyushPandey510/School-Management-System)<br><sub>No description yet.</sub> | `Dart` | [Initial Commit](https://github.com/AyushPandey510/School-Management-System/commit/92d82f99df1ae1ad35e0efe22c4d786efece91a3)<br><sub>4mo ago</sub> | dormant |
-| 08 | [**indiamart-data-engineering-pipeline**](https://github.com/AyushPandey510/indiamart-data-engineering-pipeline)<br><sub>No description yet.</sub> | `Python` | [Fix readme](https://github.com/AyushPandey510/indiamart-data-engineering-pipeline/commit/17d6c0d3d5eed62689e83c5bb74184e3f49142a1)<br><sub>4mo ago</sub> | dormant |
-| 09 | [**skill-navigator-hub**](https://github.com/AyushPandey510/skill-navigator-hub) · [live ↗](https://skill-navigator-hub.vercel.app)<br><sub>No description yet.</sub> | `TypeScript` | [Remove invalid runtime config](https://github.com/AyushPandey510/skill-navigator-hub/commit/097d2151d355e61fe3cfb19c8b5067c95dbce77d)<br><sub>4mo ago</sub> | dormant |
+| 01 | [**skill-navigator-hub**](https://github.com/AyushPandey510/skill-navigator-hub) · [live ↗](https://skill-navigator-hub.vercel.app)<br><sub>No description yet.</sub> | `TypeScript` | [feat: full ui change](https://github.com/AyushPandey510/skill-navigator-hub/commit/4309bae8a30ddada2a83dbd0db8132e84787fced)<br><sub>7h ago</sub> | active |
+| 02 | [**Space**](https://github.com/AyushPandey510/anonymous)<br><sub>Anonymous, location-gated chat rooms. Rust/Axum geofence engine + Flu…</sub> | `Dart` | [fix: config, envs and docker-ignore](https://github.com/AyushPandey510/anonymous/commit/0207cd3ce3c28e23619d12f4a9d9dd482fef2042)<br><sub>1d ago</sub> | active |
+| 03 | [**SwiftShare**](https://github.com/AyushPandey510/SwiftShare) · [live ↗](https://swift-share-tau.vercel.app)<br><sub>Send a file, share a 6-char code. Rust/warp API, React web, Flutter +…</sub> | `Dart` | [feat: added a structured design file in web a…](https://github.com/AyushPandey510/SwiftShare/commit/cdba414333e263f970623cd4cdeba2a58f9211c3)<br><sub>3d ago</sub> | active |
+| 04 | [**gps-mock**](https://github.com/AyushPandey510/gps-mock)<br><sub>No description yet.</sub> | `Dart` | [fix: build issue in github workflow](https://github.com/AyushPandey510/gps-mock/commit/c1b7420e11786d2e3ce04d1b5d90388acd849067)<br><sub>1w ago</sub> | active |
+| 05 | [**FieldTrace**](https://github.com/AyushPandey510/FieldTrace)<br><sub>No description yet.</sub> | `Dart` | [Quick Prototye Ready](https://github.com/AyushPandey510/FieldTrace/commit/ac9307ddcb5a7ebf881b348dcd3d3e91f26d7eb3)<br><sub>3w ago</sub> | stable |
+| 06 | [**XpenseCalc**](https://github.com/AyushPandey510/expense_calc)<br><sub>Reads bank SMS, parses UPI/debit/credit and charts your spending. Flu…</sub> | `Dart` | [update: updated the readme](https://github.com/AyushPandey510/expense_calc/commit/71977b8c428a4dff69cc7899b784c2970bbadb55)<br><sub>1mo ago</sub> | stable |
+| 07 | [**Procastinator**](https://github.com/AyushPandey510/Procastinator)<br><sub>No description yet.</sub> | `Makefile` | [fix:resolved bugs](https://github.com/AyushPandey510/Procastinator/commit/0421924b70d957f609741e70d8b2a3a3cd81157e)<br><sub>2mo ago</sub> | stable |
+| 08 | [**School-Management-System**](https://github.com/AyushPandey510/School-Management-System)<br><sub>No description yet.</sub> | `Dart` | [Initial Commit](https://github.com/AyushPandey510/School-Management-System/commit/92d82f99df1ae1ad35e0efe22c4d786efece91a3)<br><sub>4mo ago</sub> | dormant |
+| 09 | [**indiamart-data-engineering-pipeline**](https://github.com/AyushPandey510/indiamart-data-engineering-pipeline)<br><sub>No description yet.</sub> | `Python` | [Fix readme](https://github.com/AyushPandey510/indiamart-data-engineering-pipeline/commit/17d6c0d3d5eed62689e83c5bb74184e3f49142a1)<br><sub>4mo ago</sub> | dormant |
 | 10 | [**Portfolio**](https://github.com/AyushPandey510/Portfolio) · [live ↗](https://portfolio-ayushpandey.vercel.app)<br><sub>Personal site. React, Vite, TypeScript, shadcn/ui, Tailwind.</sub> | `TypeScript` | [Revise About section for clarity and detail](https://github.com/AyushPandey510/Portfolio/commit/b464c55146aad7d49f2510e911c08c024a232cc5)<br><sub>4mo ago</sub> | dormant |
 | 11 | [**LifeEngine AI**](https://github.com/AyushPandey510/LifeEngine) · [live ↗](https://life-engine-orcin.vercel.app)<br><sub>Chat with your future self. FastAPI, Postgres, Redis, Celery, FAISS m…</sub> | `Python` | [fix alembic multiple heads and shorten revisi…](https://github.com/AyushPandey510/LifeEngine/commit/e168fbe061ea47eaf8d6e24c66f0362c9558040d)<br><sub>4mo ago</sub> | dormant |
 | 12 | [**PDF-QA RAG**](https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3)<br><sub>Ask a PDF anything, answered only from its text. MiniLM embeddings, F…</sub> | `Python` | [Update README.md](https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3/commit/d5f4e7b3fc9d632d290937b62525a2d5a9684145)<br><sub>5mo ago</sub> | dormant |
@@ -275,6 +275,6 @@ pie showData title Where my commits went, last 12 months
 
 <p align="center">
 <!-- AUTO:UPDATED:START -->
-<sub>Updated automatically · 30 Sep 2026, 12:46 UTC</sub>
+<sub>Updated automatically · 30 Sep 2026, 22:22 UTC</sub>
 <!-- AUTO:UPDATED:END -->
 </p>
