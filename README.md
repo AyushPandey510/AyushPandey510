@@ -249,7 +249,7 @@ pie showData title Where my commits went, last 12 months
 | 06 | [**Procastinator**](https://github.com/AyushPandey510/Procastinator)<br><sub>No description yet.</sub> | `Makefile` | [fix:resolved bugs](https://github.com/AyushPandey510/Procastinator/commit/0421924b70d957f609741e70d8b2a3a3cd81157e)<br><sub>2mo ago</sub> | stable |
 | 07 | [**School-Management-System**](https://github.com/AyushPandey510/School-Management-System)<br><sub>No description yet.</sub> | `Dart` | [Initial Commit](https://github.com/AyushPandey510/School-Management-System/commit/92d82f99df1ae1ad35e0efe22c4d786efece91a3)<br><sub>4mo ago</sub> | dormant |
 | 08 | [**indiamart-data-engineering-pipeline**](https://github.com/AyushPandey510/indiamart-data-engineering-pipeline)<br><sub>No description yet.</sub> | `Python` | [Fix readme](https://github.com/AyushPandey510/indiamart-data-engineering-pipeline/commit/17d6c0d3d5eed62689e83c5bb74184e3f49142a1)<br><sub>4mo ago</sub> | dormant |
-| 09 | [**Portfolio**](https://github.com/AyushPandey510/Portfolio) · [live ↗](https://portfolio-ayushpandey.vercel.app)<br><sub>Personal site. React, Vite, TypeScript, shadcn/ui, Tailwind.</sub> | `TypeScript` | [Revise About section for clarity and detail](https://github.com/AyushPandey510/Portfolio/commit/b464c55146aad7d49f2510e911c08c024a232cc5)<br><sub>4mo ago</sub> | dormant |
+| 09 | [**Portfolio**](https://github.com/AyushPandey510/Portfolio) · [live ↗](https://portfolio-ayushpandey.vercel.app)<br><sub>Personal site. React, Vite, TypeScript, shadcn/ui, Tailwind.</sub> | `TypeScript` | [Revise About section for clarity and detail](https://github.com/AyushPandey510/Portfolio/commit/b464c55146aad7d49f2510e911c08c024a232cc5)<br><sub>5mo ago</sub> | dormant |
 | 10 | [**LifeEngine AI**](https://github.com/AyushPandey510/LifeEngine) · [live ↗](https://life-engine-orcin.vercel.app)<br><sub>Chat with your future self. FastAPI, Postgres, Redis, Celery, FAISS m…</sub> | `Python` | [fix alembic multiple heads and shorten revisi…](https://github.com/AyushPandey510/LifeEngine/commit/e168fbe061ea47eaf8d6e24c66f0362c9558040d)<br><sub>5mo ago</sub> | dormant |
 | 11 | [**PDF-QA RAG**](https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3)<br><sub>Ask a PDF anything, answered only from its text. MiniLM embeddings, F…</sub> | `Python` | [Update README.md](https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3/commit/d5f4e7b3fc9d632d290937b62525a2d5a9684145)<br><sub>5mo ago</sub> | dormant |
 | 12 | [**Placement_study_Material**](https://github.com/AyushPandey510/Placement_study_Material) · [live ↗](https://placement-study-material.vercel.app)<br><sub>No description yet.</sub> | `Python` | [fix: update Groq model name and fix indentati…](https://github.com/AyushPandey510/Placement_study_Material/commit/9b52d923f1723ccd0187e935c27824c452bd56e0)<br><sub>5mo ago</sub> | dormant |
@@ -258,7 +258,7 @@ pie showData title Where my commits went, last 12 months
 
 | # | Project | Stack | Last commit | Status |
 |:-:|:--|:--|:--|:-:|
-| 13 | [**School**](https://github.com/AyushPandey510/School) · [live ↗](https://school-two-sand.vercel.app)<br><sub>Edumentors Kids International School</sub> | `JavaScript` | [resolved the issue of learn more button in ad…](https://github.com/AyushPandey510/School/commit/0b84a1039bbf2d8a24c94997f969eb3077ee06ef)<br><sub>5mo ago</sub> | dormant |
+| 13 | [**School**](https://github.com/AyushPandey510/School) · [live ↗](https://school-two-sand.vercel.app)<br><sub>Edumentors Kids International School</sub> | `JavaScript` | [resolved the issue of learn more button in ad…](https://github.com/AyushPandey510/School/commit/0b84a1039bbf2d8a24c94997f969eb3077ee06ef)<br><sub>6mo ago</sub> | dormant |
 | 14 | [**Stock_Market**](https://github.com/AyushPandey510/Stock_Market)<br><sub>No description yet.</sub> | `Python` | [Initial commit](https://github.com/AyushPandey510/Stock_Market/commit/0a7983a0e12d6cb19eece95fe298a04ccccecc45)<br><sub>6mo ago</sub> | dormant |
 | 15 | [**Madhav-gpt**](https://github.com/AyushPandey510/Madhav-gpt)<br><sub>No description yet.</sub> | `JavaScript` | [Fixed the issues listed in BUGFIXES.md](https://github.com/AyushPandey510/Madhav-gpt/commit/fd7404c888822d8720abf808022173317488c6ef)<br><sub>6mo ago</sub> | dormant |
 | 16 | [**Algerian_Forest_**](https://github.com/AyushPandey510/Algerian_Forest_)<br><sub>No description yet.</sub> | `Python` | [score changes](https://github.com/AyushPandey510/Algerian_Forest_/commit/dbf4fcf392f81fc8afd53592a12cf00534146919)<br><sub>6mo ago</sub> | dormant |
@@ -273,6 +273,6 @@ pie showData title Where my commits went, last 12 months
 
 <p align="center">
 <!-- AUTO:UPDATED:START -->
-<sub>Updated automatically · 03 Oct 2026, 16:30 UTC</sub>
+<sub>Updated automatically · 03 Oct 2026, 21:26 UTC</sub>
 <!-- AUTO:UPDATED:END -->
 </p>
