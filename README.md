@@ -166,9 +166,9 @@ flowchart TB
 <!-- AUTO:COMMITS:START -->
 | When | Repo | Commit |
 |:--|:--|:--|
-| <sub>2h ago</sub> | **changeshare** | [`09f3746`](https://github.com/AyushPandey510/changeshare/commit/09f3746e81c822f8751c75483260526cfc3027f9) update: updated the readme |
-| <sub>2h ago</sub> | **changeshare** | [`42f6be7`](https://github.com/AyushPandey510/changeshare/commit/42f6be7d427ead7577b501e61d74bf0977314a11) Improve code readability and documentation |
-| <sub>2h ago</sub> | **changeshare** | [`7354d53`](https://github.com/AyushPandey510/changeshare/commit/7354d5341447162b80992e836661392f8518349a) Prepare ChangeShare 0.1.6 release |
+| <sub>3h ago</sub> | **changeshare** | [`c8b163b`](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97) Switch CLI release to Node.js package |
+| <sub>4h ago</sub> | **changeshare** | [`aea76cc`](https://github.com/AyushPandey510/changeshare/commit/aea76cc0788dcffb7b09b1207aa67b87691718f1) Fix retries for compressed CLI downloads |
+| <sub>4h ago</sub> | **changeshare** | [`25175eb`](https://github.com/AyushPandey510/changeshare/commit/25175ebb5863de6ad6fb40cb6fe37ce7d7678ba8) Compress CLI release downloads |
 | <sub>2w ago</sub> | **skill-navigator-hub** | [`48b6293`](https://github.com/AyushPandey510/skill-navigator-hub/commit/48b6293a914ef4e58fa09d057992a856c5839f31) feat: analytics |
 | <sub>2w ago</sub> | **skill-navigator-hub** | [`6181059`](https://github.com/AyushPandey510/skill-navigator-hub/commit/6181059fd9fd78ab9244c75127d7b946665947ff) feat: pwa , export and pomodoro |
 | <sub>2w ago</sub> | **skill-navigator-hub** | [`4309bae`](https://github.com/AyushPandey510/skill-navigator-hub/commit/4309bae8a30ddada2a83dbd0db8132e84787fced) feat: full ui change |
@@ -190,8 +190,8 @@ pie showData title Where my commits went, last 12 months
     "SwiftShare" : 44
     "Space" : 19
     "Placement_study_Material" : 18
+    "changeshare" : 16
     "LifeEngine AI" : 13
-    "changeshare" : 12
     "skill-navigator-hub" : 10
     "School" : 9
     "others" : 25
@@ -209,7 +209,7 @@ pie showData title Where my commits went, last 12 months
 <!-- AUTO:COMPARE:START -->
 | Project | Commits | Active days (12m) | First commit | Latest commit | Main language | Size |
 |:--|--:|--:|:--|:--|:--|--:|
-| [changeshare](https://github.com/AyushPandey510/changeshare) | 21 | 1 | Oct 2026 | 18 Oct 2026 | `TypeScript` | 70 KB |
+| [changeshare](https://github.com/AyushPandey510/changeshare) | 25 | 1 | Oct 2026 | 18 Oct 2026 | `TypeScript` | 76 KB |
 | [skill-navigator-hub](https://github.com/AyushPandey510/skill-navigator-hub) | 23 | 3 | Jan 2025 | 01 Oct 2026 | `TypeScript` | 280 KB |
 | [Space](https://github.com/AyushPandey510/anonymous) | 27 | 10 | Jul 2026 | 29 Sep 2026 | `Dart` | 462 KB |
 | [SwiftShare](https://github.com/AyushPandey510/SwiftShare) | 45 | 10 | Aug 2025 | 27 Sep 2026 | `Dart` | 734 KB |
@@ -242,7 +242,7 @@ pie showData title Where my commits went, last 12 months
 <!-- AUTO:ALL:START -->
 | # | Project | Stack | Last commit | Status |
 |:-:|:--|:--|:--|:-:|
-| 01 | [**changeshare**](https://github.com/AyushPandey510/changeshare)<br><sub>No description yet.</sub> | `TypeScript` | [update: updated the readme](https://github.com/AyushPandey510/changeshare/commit/09f3746e81c822f8751c75483260526cfc3027f9)<br><sub>2h ago</sub> | active |
+| 01 | [**changeshare**](https://github.com/AyushPandey510/changeshare)<br><sub>No description yet.</sub> | `TypeScript` | [Switch CLI release to Node.js package](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97)<br><sub>3h ago</sub> | active |
 | 02 | [**skill-navigator-hub**](https://github.com/AyushPandey510/skill-navigator-hub) · [live ↗](https://skill-navigator-hub.vercel.app)<br><sub>No description yet.</sub> | `TypeScript` | [feat: analytics](https://github.com/AyushPandey510/skill-navigator-hub/commit/48b6293a914ef4e58fa09d057992a856c5839f31)<br><sub>2w ago</sub> | stable |
 | 03 | [**Space**](https://github.com/AyushPandey510/anonymous)<br><sub>Anonymous, location-gated chat rooms. Rust/Axum geofence engine + Flu…</sub> | `Dart` | [fix: config, envs and docker-ignore](https://github.com/AyushPandey510/anonymous/commit/0207cd3ce3c28e23619d12f4a9d9dd482fef2042)<br><sub>2w ago</sub> | stable |
 | 04 | [**SwiftShare**](https://github.com/AyushPandey510/SwiftShare) · [live ↗](https://swift-share-tau.vercel.app)<br><sub>Send a file, share a 6-char code. Rust/warp API, React web, Flutter +…</sub> | `Dart` | [feat: added a structured design file in web a…](https://github.com/AyushPandey510/SwiftShare/commit/cdba414333e263f970623cd4cdeba2a58f9211c3)<br><sub>3w ago</sub> | stable |
@@ -275,6 +275,6 @@ pie showData title Where my commits went, last 12 months
 
 <p align="center">
 <!-- AUTO:UPDATED:START -->
-<sub>Updated automatically · 18 Oct 2026, 11:21 UTC</sub>
+<sub>Updated automatically · 18 Oct 2026, 15:58 UTC</sub>
 <!-- AUTO:UPDATED:END -->
 </p>
