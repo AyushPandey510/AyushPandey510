@@ -249,7 +249,7 @@ pie showData title Where my commits went, last 12 months
 | 05 | [**FieldTrace**](https://github.com/AyushPandey510/FieldTrace)<br><sub>No description yet.</sub> | `Dart` | [Quick Prototye Ready](https://github.com/AyushPandey510/FieldTrace/commit/ac9307ddcb5a7ebf881b348dcd3d3e91f26d7eb3)<br><sub>1mo ago</sub> | stable |
 | 06 | [**XpenseCalc**](https://github.com/AyushPandey510/expense_calc)<br><sub>Reads bank SMS, parses UPI/debit/credit and charts your spending. Flu…</sub> | `Dart` | [update: updated the readme](https://github.com/AyushPandey510/expense_calc/commit/71977b8c428a4dff69cc7899b784c2970bbadb55)<br><sub>2mo ago</sub> | stable |
 | 07 | [**Procastinator**](https://github.com/AyushPandey510/Procastinator)<br><sub>No description yet.</sub> | `Makefile` | [fix:resolved bugs](https://github.com/AyushPandey510/Procastinator/commit/0421924b70d957f609741e70d8b2a3a3cd81157e)<br><sub>2mo ago</sub> | stable |
-| 08 | [**School-Management-System**](https://github.com/AyushPandey510/School-Management-System)<br><sub>No description yet.</sub> | `Dart` | [Initial Commit](https://github.com/AyushPandey510/School-Management-System/commit/92d82f99df1ae1ad35e0efe22c4d786efece91a3)<br><sub>4mo ago</sub> | dormant |
+| 08 | [**School-Management-System**](https://github.com/AyushPandey510/School-Management-System)<br><sub>No description yet.</sub> | `Dart` | [Initial Commit](https://github.com/AyushPandey510/School-Management-System/commit/92d82f99df1ae1ad35e0efe22c4d786efece91a3)<br><sub>5mo ago</sub> | dormant |
 | 09 | [**indiamart-data-engineering-pipeline**](https://github.com/AyushPandey510/indiamart-data-engineering-pipeline)<br><sub>No description yet.</sub> | `Python` | [Fix readme](https://github.com/AyushPandey510/indiamart-data-engineering-pipeline/commit/17d6c0d3d5eed62689e83c5bb74184e3f49142a1)<br><sub>5mo ago</sub> | dormant |
 | 10 | [**Portfolio**](https://github.com/AyushPandey510/Portfolio) · [live ↗](https://portfolio-ayushpandey.vercel.app)<br><sub>Personal site. React, Vite, TypeScript, shadcn/ui, Tailwind.</sub> | `TypeScript` | [Revise About section for clarity and detail](https://github.com/AyushPandey510/Portfolio/commit/b464c55146aad7d49f2510e911c08c024a232cc5)<br><sub>5mo ago</sub> | dormant |
 | 11 | [**LifeEngine AI**](https://github.com/AyushPandey510/LifeEngine) · [live ↗](https://life-engine-orcin.vercel.app)<br><sub>Chat with your future self. FastAPI, Postgres, Redis, Celery, FAISS m…</sub> | `Python` | [fix alembic multiple heads and shorten revisi…](https://github.com/AyushPandey510/LifeEngine/commit/e168fbe061ea47eaf8d6e24c66f0362c9558040d)<br><sub>5mo ago</sub> | dormant |
@@ -275,6 +275,6 @@ pie showData title Where my commits went, last 12 months
 
 <p align="center">
 <!-- AUTO:UPDATED:START -->
-<sub>Updated automatically · 19 Oct 2026, 13:36 UTC</sub>
+<sub>Updated automatically · 19 Oct 2026, 22:28 UTC</sub>
 <!-- AUTO:UPDATED:END -->
 </p>
