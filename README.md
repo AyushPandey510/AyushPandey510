@@ -168,14 +168,14 @@ flowchart TB
 |:--|:--|:--|
 | <sub>6d ago</sub> | **changeshare** | [`c8b163b`](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97) Switch CLI release to Node.js package |
 | <sub>6d ago</sub> | **changeshare** | [`aea76cc`](https://github.com/AyushPandey510/changeshare/commit/aea76cc0788dcffb7b09b1207aa67b87691718f1) Fix retries for compressed CLI downloads |
-| <sub>6d ago</sub> | **changeshare** | [`25175eb`](https://github.com/AyushPandey510/changeshare/commit/25175ebb5863de6ad6fb40cb6fe37ce7d7678ba8) Compress CLI release downloads |
+| <sub>1w ago</sub> | **changeshare** | [`25175eb`](https://github.com/AyushPandey510/changeshare/commit/25175ebb5863de6ad6fb40cb6fe37ce7d7678ba8) Compress CLI release downloads |
 | <sub>3w ago</sub> | **skill-navigator-hub** | [`48b6293`](https://github.com/AyushPandey510/skill-navigator-hub/commit/48b6293a914ef4e58fa09d057992a856c5839f31) feat: analytics |
 | <sub>3w ago</sub> | **skill-navigator-hub** | [`6181059`](https://github.com/AyushPandey510/skill-navigator-hub/commit/6181059fd9fd78ab9244c75127d7b946665947ff) feat: pwa , export and pomodoro |
 | <sub>3w ago</sub> | **skill-navigator-hub** | [`4309bae`](https://github.com/AyushPandey510/skill-navigator-hub/commit/4309bae8a30ddada2a83dbd0db8132e84787fced) feat: full ui change |
 | <sub>3w ago</sub> | **Space** | [`0207cd3`](https://github.com/AyushPandey510/anonymous/commit/0207cd3ce3c28e23619d12f4a9d9dd482fef2042) fix: config, envs and docker-ignore |
-| <sub>3w ago</sub> | **SwiftShare** | [`cdba414`](https://github.com/AyushPandey510/SwiftShare/commit/cdba414333e263f970623cd4cdeba2a58f9211c3) feat: added a structured design file in web and dark mode fix |
-| <sub>3w ago</sub> | **SwiftShare** | [`e9f4307`](https://github.com/AyushPandey510/SwiftShare/commit/e9f43071d2d5425179ce680db3d0c3c947c1572f) feat: added a structured design file and dark mode loader fix |
-| <sub>3w ago</sub> | **SwiftShare** | [`4b6b17e`](https://github.com/AyushPandey510/SwiftShare/commit/4b6b17e7055c77d667a931e1d4e7e96e1cc9f042) fix: Mobile download bug |
+| <sub>4w ago</sub> | **SwiftShare** | [`cdba414`](https://github.com/AyushPandey510/SwiftShare/commit/cdba414333e263f970623cd4cdeba2a58f9211c3) feat: added a structured design file in web and dark mode fix |
+| <sub>4w ago</sub> | **SwiftShare** | [`e9f4307`](https://github.com/AyushPandey510/SwiftShare/commit/e9f43071d2d5425179ce680db3d0c3c947c1572f) feat: added a structured design file and dark mode loader fix |
+| <sub>4w ago</sub> | **SwiftShare** | [`4b6b17e`](https://github.com/AyushPandey510/SwiftShare/commit/4b6b17e7055c77d667a931e1d4e7e96e1cc9f042) fix: Mobile download bug |
 <!-- AUTO:COMMITS:END -->
 
 ## Metrics
@@ -245,7 +245,7 @@ pie showData title Where my commits went, last 12 months
 | 01 | [**changeshare**](https://github.com/AyushPandey510/changeshare)<br><sub>No description yet.</sub> | `TypeScript` | [Switch CLI release to Node.js package](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97)<br><sub>6d ago</sub> | active |
 | 02 | [**skill-navigator-hub**](https://github.com/AyushPandey510/skill-navigator-hub) · [live ↗](https://skill-navigator-hub.vercel.app)<br><sub>No description yet.</sub> | `TypeScript` | [feat: analytics](https://github.com/AyushPandey510/skill-navigator-hub/commit/48b6293a914ef4e58fa09d057992a856c5839f31)<br><sub>3w ago</sub> | stable |
 | 03 | [**Space**](https://github.com/AyushPandey510/anonymous)<br><sub>Anonymous, location-gated chat rooms. Rust/Axum geofence engine + Flu…</sub> | `Dart` | [fix: config, envs and docker-ignore](https://github.com/AyushPandey510/anonymous/commit/0207cd3ce3c28e23619d12f4a9d9dd482fef2042)<br><sub>3w ago</sub> | stable |
-| 04 | [**SwiftShare**](https://github.com/AyushPandey510/SwiftShare) · [live ↗](https://swift-share-tau.vercel.app)<br><sub>Send a file, share a 6-char code. Rust/warp API, React web, Flutter +…</sub> | `Dart` | [feat: added a structured design file in web a…](https://github.com/AyushPandey510/SwiftShare/commit/cdba414333e263f970623cd4cdeba2a58f9211c3)<br><sub>3w ago</sub> | stable |
+| 04 | [**SwiftShare**](https://github.com/AyushPandey510/SwiftShare) · [live ↗](https://swift-share-tau.vercel.app)<br><sub>Send a file, share a 6-char code. Rust/warp API, React web, Flutter +…</sub> | `Dart` | [feat: added a structured design file in web a…](https://github.com/AyushPandey510/SwiftShare/commit/cdba414333e263f970623cd4cdeba2a58f9211c3)<br><sub>4w ago</sub> | stable |
 | 05 | [**FieldTrace**](https://github.com/AyushPandey510/FieldTrace)<br><sub>No description yet.</sub> | `Dart` | [Quick Prototye Ready](https://github.com/AyushPandey510/FieldTrace/commit/ac9307ddcb5a7ebf881b348dcd3d3e91f26d7eb3)<br><sub>1mo ago</sub> | stable |
 | 06 | [**XpenseCalc**](https://github.com/AyushPandey510/expense_calc)<br><sub>Reads bank SMS, parses UPI/debit/credit and charts your spending. Flu…</sub> | `Dart` | [update: updated the readme](https://github.com/AyushPandey510/expense_calc/commit/71977b8c428a4dff69cc7899b784c2970bbadb55)<br><sub>2mo ago</sub> | stable |
 | 07 | [**Procastinator**](https://github.com/AyushPandey510/Procastinator)<br><sub>No description yet.</sub> | `Makefile` | [fix:resolved bugs](https://github.com/AyushPandey510/Procastinator/commit/0421924b70d957f609741e70d8b2a3a3cd81157e)<br><sub>3mo ago</sub> | stable |
@@ -264,7 +264,7 @@ pie showData title Where my commits went, last 12 months
 | 15 | [**Stock_Market**](https://github.com/AyushPandey510/Stock_Market)<br><sub>No description yet.</sub> | `Python` | [Initial commit](https://github.com/AyushPandey510/Stock_Market/commit/0a7983a0e12d6cb19eece95fe298a04ccccecc45)<br><sub>6mo ago</sub> | dormant |
 | 16 | [**Madhav-gpt**](https://github.com/AyushPandey510/Madhav-gpt)<br><sub>No description yet.</sub> | `JavaScript` | [Fixed the issues listed in BUGFIXES.md](https://github.com/AyushPandey510/Madhav-gpt/commit/fd7404c888822d8720abf808022173317488c6ef)<br><sub>7mo ago</sub> | dormant |
 | 17 | [**Algerian_Forest_**](https://github.com/AyushPandey510/Algerian_Forest_)<br><sub>No description yet.</sub> | `Python` | [score changes](https://github.com/AyushPandey510/Algerian_Forest_/commit/dbf4fcf392f81fc8afd53592a12cf00534146919)<br><sub>7mo ago</sub> | dormant |
-| 18 | [**PhisGuard**](https://github.com/AyushPandey510/Phis_Shield)<br><sub>Chrome extension + Flask API that scores URLs &amp; emails with scikit-le…</sub> | `Python` | [Final Changes before submission](https://github.com/AyushPandey510/Phis_Shield/commit/87ad0f3b2ca1f08e21174ff721982cc6e82106a7)<br><sub>10mo ago</sub> | dormant |
+| 18 | [**PhisGuard**](https://github.com/AyushPandey510/Phis_Shield)<br><sub>Chrome extension + Flask API that scores URLs &amp; emails with scikit-le…</sub> | `Python` | [Final Changes before submission](https://github.com/AyushPandey510/Phis_Shield/commit/87ad0f3b2ca1f08e21174ff721982cc6e82106a7)<br><sub>11mo ago</sub> | dormant |
 | 19 | [**RustCart API**](https://github.com/AyushPandey510/Rust-Ecom-Api)<br><sub>E-commerce backend: Actix Web, Postgres, JWT/RBAC, Razorpay, Swagger.</sub> | `Rust` | [swagger sand other errors resolved](https://github.com/AyushPandey510/Rust-Ecom-Api/commit/dd9b7d4b5f083f06035e2572c2dcff9b28a27d20)<br><sub>1y ago</sub> | dormant |
 | 20 | [**Zettabyte**](https://github.com/AyushPandey510/Zettabyte)<br><sub>Event manager with QR check-in. FastAPI + SQLAlchemy backend, React/V…</sub> | `TypeScript` | [frontend added](https://github.com/AyushPandey510/Zettabyte/commit/a74df207f319234978c4732449daa48e7ba02325)<br><sub>1y ago</sub> | dormant |
 
@@ -275,6 +275,6 @@ pie showData title Where my commits went, last 12 months
 
 <p align="center">
 <!-- AUTO:UPDATED:START -->
-<sub>Updated automatically · 25 Oct 2026, 04:55 UTC</sub>
+<sub>Updated automatically · 25 Oct 2026, 11:45 UTC</sub>
 <!-- AUTO:UPDATED:END -->
 </p>
