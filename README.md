@@ -166,7 +166,7 @@ flowchart TB
 <!-- AUTO:COMMITS:START -->
 | When | Repo | Commit |
 |:--|:--|:--|
-| <sub>6h ago</sub> | **Portfolio** | [`109bdfb`](https://github.com/AyushPandey510/Portfolio/commit/109bdfbb443667668d19011d9a4992e612dc25ba) Web v1 |
+| <sub>10h ago</sub> | **Portfolio** | [`109bdfb`](https://github.com/AyushPandey510/Portfolio/commit/109bdfbb443667668d19011d9a4992e612dc25ba) Web v1 |
 | <sub>2w ago</sub> | **changeshare** | [`c8b163b`](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97) Switch CLI release to Node.js package |
 | <sub>2w ago</sub> | **changeshare** | [`aea76cc`](https://github.com/AyushPandey510/changeshare/commit/aea76cc0788dcffb7b09b1207aa67b87691718f1) Fix retries for compressed CLI downloads |
 | <sub>2w ago</sub> | **changeshare** | [`25175eb`](https://github.com/AyushPandey510/changeshare/commit/25175ebb5863de6ad6fb40cb6fe37ce7d7678ba8) Compress CLI release downloads |
@@ -242,7 +242,7 @@ pie showData title Where my commits went, last 12 months
 <!-- AUTO:ALL:START -->
 | # | Project | Stack | Last commit | Status |
 |:-:|:--|:--|:--|:-:|
-| 01 | [**Portfolio**](https://github.com/AyushPandey510/Portfolio) · [live ↗](https://portfolio-ayushpandey.vercel.app)<br><sub>Personal site. React, Vite, TypeScript, shadcn/ui, Tailwind.</sub> | `TypeScript` | [Web v1](https://github.com/AyushPandey510/Portfolio/commit/109bdfbb443667668d19011d9a4992e612dc25ba)<br><sub>6h ago</sub> | active |
+| 01 | [**Portfolio**](https://github.com/AyushPandey510/Portfolio) · [live ↗](https://portfolio-ayushpandey.vercel.app)<br><sub>Personal site. React, Vite, TypeScript, shadcn/ui, Tailwind.</sub> | `TypeScript` | [Web v1](https://github.com/AyushPandey510/Portfolio/commit/109bdfbb443667668d19011d9a4992e612dc25ba)<br><sub>10h ago</sub> | active |
 | 02 | [**changeshare**](https://github.com/AyushPandey510/changeshare)<br><sub>No description yet.</sub> | `TypeScript` | [Switch CLI release to Node.js package](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97)<br><sub>2w ago</sub> | active |
 | 03 | [**skill-navigator-hub**](https://github.com/AyushPandey510/skill-navigator-hub) · [live ↗](https://skill-navigator-hub.vercel.app)<br><sub>No description yet.</sub> | `TypeScript` | [feat: analytics](https://github.com/AyushPandey510/skill-navigator-hub/commit/48b6293a914ef4e58fa09d057992a856c5839f31)<br><sub>1mo ago</sub> | stable |
 | 04 | [**Space**](https://github.com/AyushPandey510/anonymous)<br><sub>Anonymous, location-gated chat rooms. Rust/Axum geofence engine + Flu…</sub> | `Dart` | [fix: config, envs and docker-ignore](https://github.com/AyushPandey510/anonymous/commit/0207cd3ce3c28e23619d12f4a9d9dd482fef2042)<br><sub>1mo ago</sub> | stable |
@@ -252,7 +252,7 @@ pie showData title Where my commits went, last 12 months
 | 08 | [**Procastinator**](https://github.com/AyushPandey510/Procastinator)<br><sub>No description yet.</sub> | `Makefile` | [fix:resolved bugs](https://github.com/AyushPandey510/Procastinator/commit/0421924b70d957f609741e70d8b2a3a3cd81157e)<br><sub>3mo ago</sub> | stable |
 | 09 | [**School-Management-System**](https://github.com/AyushPandey510/School-Management-System)<br><sub>No description yet.</sub> | `Dart` | [Initial Commit](https://github.com/AyushPandey510/School-Management-System/commit/92d82f99df1ae1ad35e0efe22c4d786efece91a3)<br><sub>5mo ago</sub> | dormant |
 | 10 | [**indiamart-data-engineering-pipeline**](https://github.com/AyushPandey510/indiamart-data-engineering-pipeline)<br><sub>No description yet.</sub> | `Python` | [Fix readme](https://github.com/AyushPandey510/indiamart-data-engineering-pipeline/commit/17d6c0d3d5eed62689e83c5bb74184e3f49142a1)<br><sub>5mo ago</sub> | dormant |
-| 11 | [**LifeEngine AI**](https://github.com/AyushPandey510/LifeEngine) · [live ↗](https://life-engine-orcin.vercel.app)<br><sub>Chat with your future self. FastAPI, Postgres, Redis, Celery, FAISS m…</sub> | `Python` | [fix alembic multiple heads and shorten revisi…](https://github.com/AyushPandey510/LifeEngine/commit/e168fbe061ea47eaf8d6e24c66f0362c9558040d)<br><sub>5mo ago</sub> | dormant |
+| 11 | [**LifeEngine AI**](https://github.com/AyushPandey510/LifeEngine) · [live ↗](https://life-engine-orcin.vercel.app)<br><sub>Chat with your future self. FastAPI, Postgres, Redis, Celery, FAISS m…</sub> | `Python` | [fix alembic multiple heads and shorten revisi…](https://github.com/AyushPandey510/LifeEngine/commit/e168fbe061ea47eaf8d6e24c66f0362c9558040d)<br><sub>6mo ago</sub> | dormant |
 | 12 | [**PDF-QA RAG**](https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3)<br><sub>Ask a PDF anything, answered only from its text. MiniLM embeddings, F…</sub> | `Python` | [Update README.md](https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3/commit/d5f4e7b3fc9d632d290937b62525a2d5a9684145)<br><sub>6mo ago</sub> | dormant |
 
 <details><summary><b>+ 8 more repos</b></summary>
@@ -275,6 +275,6 @@ pie showData title Where my commits went, last 12 months
 
 <p align="center">
 <!-- AUTO:UPDATED:START -->
-<sub>Updated automatically · 01 Nov 2026, 17:58 UTC</sub>
+<sub>Updated automatically · 01 Nov 2026, 22:10 UTC</sub>
 <!-- AUTO:UPDATED:END -->
 </p>
