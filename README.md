@@ -166,7 +166,9 @@ flowchart TB
 <!-- AUTO:COMMITS:START -->
 | When | Repo | Commit |
 |:--|:--|:--|
-| <sub>19h ago</sub> | **Portfolio** | [`109bdfb`](https://github.com/AyushPandey510/Portfolio/commit/109bdfbb443667668d19011d9a4992e612dc25ba) Web v1 |
+| <sub>4h ago</sub> | **Portfolio** | [`430d2b1`](https://github.com/AyushPandey510/Portfolio/commit/430d2b1e6a0276fd73314e9ab3909761fe8ece55) Add Counter Drop live link |
+| <sub>4h ago</sub> | **Portfolio** | [`39d22fd`](https://github.com/AyushPandey510/Portfolio/commit/39d22fd5b23b6064e1f937ec34ebf460f362ffea) Add Google Search Console verification |
+| <sub>4h ago</sub> | **Portfolio** | [`813dffb`](https://github.com/AyushPandey510/Portfolio/commit/813dffb16e1d09365e1ed68201d6b451c88832b7) Web v2 |
 | <sub>2w ago</sub> | **changeshare** | [`c8b163b`](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97) Switch CLI release to Node.js package |
 | <sub>2w ago</sub> | **changeshare** | [`aea76cc`](https://github.com/AyushPandey510/changeshare/commit/aea76cc0788dcffb7b09b1207aa67b87691718f1) Fix retries for compressed CLI downloads |
 | <sub>2w ago</sub> | **changeshare** | [`25175eb`](https://github.com/AyushPandey510/changeshare/commit/25175ebb5863de6ad6fb40cb6fe37ce7d7678ba8) Compress CLI release downloads |
@@ -174,8 +176,6 @@ flowchart TB
 | <sub>1mo ago</sub> | **skill-navigator-hub** | [`6181059`](https://github.com/AyushPandey510/skill-navigator-hub/commit/6181059fd9fd78ab9244c75127d7b946665947ff) feat: pwa , export and pomodoro |
 | <sub>1mo ago</sub> | **skill-navigator-hub** | [`4309bae`](https://github.com/AyushPandey510/skill-navigator-hub/commit/4309bae8a30ddada2a83dbd0db8132e84787fced) feat: full ui change |
 | <sub>1mo ago</sub> | **Space** | [`0207cd3`](https://github.com/AyushPandey510/anonymous/commit/0207cd3ce3c28e23619d12f4a9d9dd482fef2042) fix: config, envs and docker-ignore |
-| <sub>1mo ago</sub> | **SwiftShare** | [`cdba414`](https://github.com/AyushPandey510/SwiftShare/commit/cdba414333e263f970623cd4cdeba2a58f9211c3) feat: added a structured design file in web and dark mode fix |
-| <sub>1mo ago</sub> | **SwiftShare** | [`e9f4307`](https://github.com/AyushPandey510/SwiftShare/commit/e9f43071d2d5425179ce680db3d0c3c947c1572f) feat: added a structured design file and dark mode loader fix |
 <!-- AUTO:COMMITS:END -->
 
 ## Metrics
@@ -194,7 +194,7 @@ pie showData title Where my commits went, last 12 months
     "LifeEngine AI" : 13
     "skill-navigator-hub" : 10
     "School" : 9
-    "others" : 26
+    "others" : 29
 ```
 <!-- AUTO:PIE:END -->
 
@@ -209,7 +209,7 @@ pie showData title Where my commits went, last 12 months
 <!-- AUTO:COMPARE:START -->
 | Project | Commits | Active days (12m) | First commit | Latest commit | Main language | Size |
 |:--|--:|--:|:--|:--|:--|--:|
-| [Portfolio](https://github.com/AyushPandey510/Portfolio) | 5 | 3 | Jan 2026 | 01 Nov 2026 | `TypeScript` | 244 KB |
+| [Portfolio](https://github.com/AyushPandey510/Portfolio) | 8 | 4 | Jan 2026 | 02 Nov 2026 | `TypeScript` | 449 KB |
 | [changeshare](https://github.com/AyushPandey510/changeshare) | 25 | 1 | Oct 2026 | 18 Oct 2026 | `TypeScript` | 76 KB |
 | [skill-navigator-hub](https://github.com/AyushPandey510/skill-navigator-hub) | 23 | 3 | Jan 2025 | 01 Oct 2026 | `TypeScript` | 280 KB |
 | [Space](https://github.com/AyushPandey510/anonymous) | 27 | 10 | Jul 2026 | 29 Sep 2026 | `Dart` | 462 KB |
@@ -242,8 +242,8 @@ pie showData title Where my commits went, last 12 months
 <!-- AUTO:ALL:START -->
 | # | Project | Stack | Last commit | Status |
 |:-:|:--|:--|:--|:-:|
-| 01 | [**Portfolio**](https://github.com/AyushPandey510/Portfolio) · [live ↗](https://portfolio-ayushpandey.vercel.app)<br><sub>Personal site. React, Vite, TypeScript, shadcn/ui, Tailwind.</sub> | `TypeScript` | [Web v1](https://github.com/AyushPandey510/Portfolio/commit/109bdfbb443667668d19011d9a4992e612dc25ba)<br><sub>19h ago</sub> | active |
-| 02 | [**changeshare**](https://github.com/AyushPandey510/changeshare)<br><sub>No description yet.</sub> | `TypeScript` | [Switch CLI release to Node.js package](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97)<br><sub>2w ago</sub> | active |
+| 01 | [**Portfolio**](https://github.com/AyushPandey510/Portfolio) · [live ↗](https://portfolio-ayushpandey.vercel.app)<br><sub>Personal site. React, Vite, TypeScript, shadcn/ui, Tailwind.</sub> | `TypeScript` | [Add Counter Drop live link](https://github.com/AyushPandey510/Portfolio/commit/430d2b1e6a0276fd73314e9ab3909761fe8ece55)<br><sub>4h ago</sub> | active |
+| 02 | [**changeshare**](https://github.com/AyushPandey510/changeshare)<br><sub>No description yet.</sub> | `TypeScript` | [Switch CLI release to Node.js package](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97)<br><sub>2w ago</sub> | stable |
 | 03 | [**skill-navigator-hub**](https://github.com/AyushPandey510/skill-navigator-hub) · [live ↗](https://skill-navigator-hub.vercel.app)<br><sub>No description yet.</sub> | `TypeScript` | [feat: analytics](https://github.com/AyushPandey510/skill-navigator-hub/commit/48b6293a914ef4e58fa09d057992a856c5839f31)<br><sub>1mo ago</sub> | stable |
 | 04 | [**Space**](https://github.com/AyushPandey510/anonymous)<br><sub>Anonymous, location-gated chat rooms. Rust/Axum geofence engine + Flu…</sub> | `Dart` | [fix: config, envs and docker-ignore](https://github.com/AyushPandey510/anonymous/commit/0207cd3ce3c28e23619d12f4a9d9dd482fef2042)<br><sub>1mo ago</sub> | stable |
 | 05 | [**SwiftShare**](https://github.com/AyushPandey510/SwiftShare) · [live ↗](https://swift-share-tau.vercel.app)<br><sub>Send a file, share a 6-char code. Rust/warp API, React web, Flutter +…</sub> | `Dart` | [feat: added a structured design file in web a…](https://github.com/AyushPandey510/SwiftShare/commit/cdba414333e263f970623cd4cdeba2a58f9211c3)<br><sub>1mo ago</sub> | stable |
@@ -260,7 +260,7 @@ pie showData title Where my commits went, last 12 months
 | # | Project | Stack | Last commit | Status |
 |:-:|:--|:--|:--|:-:|
 | 13 | [**Placement_study_Material**](https://github.com/AyushPandey510/Placement_study_Material) · [live ↗](https://placement-study-material.vercel.app)<br><sub>No description yet.</sub> | `Python` | [fix: update Groq model name and fix indentati…](https://github.com/AyushPandey510/Placement_study_Material/commit/9b52d923f1723ccd0187e935c27824c452bd56e0)<br><sub>6mo ago</sub> | dormant |
-| 14 | [**School**](https://github.com/AyushPandey510/School) · [live ↗](https://school-two-sand.vercel.app)<br><sub>Edumentors Kids International School</sub> | `JavaScript` | [resolved the issue of learn more button in ad…](https://github.com/AyushPandey510/School/commit/0b84a1039bbf2d8a24c94997f969eb3077ee06ef)<br><sub>6mo ago</sub> | dormant |
+| 14 | [**School**](https://github.com/AyushPandey510/School) · [live ↗](https://school-two-sand.vercel.app)<br><sub>Edumentors Kids International School</sub> | `JavaScript` | [resolved the issue of learn more button in ad…](https://github.com/AyushPandey510/School/commit/0b84a1039bbf2d8a24c94997f969eb3077ee06ef)<br><sub>7mo ago</sub> | dormant |
 | 15 | [**Stock_Market**](https://github.com/AyushPandey510/Stock_Market)<br><sub>No description yet.</sub> | `Python` | [Initial commit](https://github.com/AyushPandey510/Stock_Market/commit/0a7983a0e12d6cb19eece95fe298a04ccccecc45)<br><sub>7mo ago</sub> | dormant |
 | 16 | [**Madhav-gpt**](https://github.com/AyushPandey510/Madhav-gpt)<br><sub>No description yet.</sub> | `JavaScript` | [Fixed the issues listed in BUGFIXES.md](https://github.com/AyushPandey510/Madhav-gpt/commit/fd7404c888822d8720abf808022173317488c6ef)<br><sub>7mo ago</sub> | dormant |
 | 17 | [**Algerian_Forest_**](https://github.com/AyushPandey510/Algerian_Forest_)<br><sub>No description yet.</sub> | `Python` | [score changes](https://github.com/AyushPandey510/Algerian_Forest_/commit/dbf4fcf392f81fc8afd53592a12cf00534146919)<br><sub>7mo ago</sub> | dormant |
@@ -275,6 +275,6 @@ pie showData title Where my commits went, last 12 months
 
 <p align="center">
 <!-- AUTO:UPDATED:START -->
-<sub>Updated automatically · 02 Nov 2026, 06:24 UTC</sub>
+<sub>Updated automatically · 02 Nov 2026, 21:48 UTC</sub>
 <!-- AUTO:UPDATED:END -->
 </p>
