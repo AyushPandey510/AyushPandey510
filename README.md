@@ -166,9 +166,9 @@ flowchart TB
 <!-- AUTO:COMMITS:START -->
 | When | Repo | Commit |
 |:--|:--|:--|
-| <sub>3d ago</sub> | **Portfolio** | [`430d2b1`](https://github.com/AyushPandey510/Portfolio/commit/430d2b1e6a0276fd73314e9ab3909761fe8ece55) Add Counter Drop live link |
-| <sub>3d ago</sub> | **Portfolio** | [`39d22fd`](https://github.com/AyushPandey510/Portfolio/commit/39d22fd5b23b6064e1f937ec34ebf460f362ffea) Add Google Search Console verification |
-| <sub>3d ago</sub> | **Portfolio** | [`813dffb`](https://github.com/AyushPandey510/Portfolio/commit/813dffb16e1d09365e1ed68201d6b451c88832b7) Web v2 |
+| <sub>4d ago</sub> | **Portfolio** | [`430d2b1`](https://github.com/AyushPandey510/Portfolio/commit/430d2b1e6a0276fd73314e9ab3909761fe8ece55) Add Counter Drop live link |
+| <sub>4d ago</sub> | **Portfolio** | [`39d22fd`](https://github.com/AyushPandey510/Portfolio/commit/39d22fd5b23b6064e1f937ec34ebf460f362ffea) Add Google Search Console verification |
+| <sub>4d ago</sub> | **Portfolio** | [`813dffb`](https://github.com/AyushPandey510/Portfolio/commit/813dffb16e1d09365e1ed68201d6b451c88832b7) Web v2 |
 | <sub>2w ago</sub> | **changeshare** | [`c8b163b`](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97) Switch CLI release to Node.js package |
 | <sub>2w ago</sub> | **changeshare** | [`aea76cc`](https://github.com/AyushPandey510/changeshare/commit/aea76cc0788dcffb7b09b1207aa67b87691718f1) Fix retries for compressed CLI downloads |
 | <sub>2w ago</sub> | **changeshare** | [`25175eb`](https://github.com/AyushPandey510/changeshare/commit/25175ebb5863de6ad6fb40cb6fe37ce7d7678ba8) Compress CLI release downloads |
@@ -242,12 +242,12 @@ pie showData title Where my commits went, last 12 months
 <!-- AUTO:ALL:START -->
 | # | Project | Stack | Last commit | Status |
 |:-:|:--|:--|:--|:-:|
-| 01 | [**Portfolio**](https://github.com/AyushPandey510/Portfolio) · [live ↗](https://portfolio-ayushpandey.vercel.app)<br><sub>Personal site. React, Vite, TypeScript, shadcn/ui, Tailwind.</sub> | `TypeScript` | [Add Counter Drop live link](https://github.com/AyushPandey510/Portfolio/commit/430d2b1e6a0276fd73314e9ab3909761fe8ece55)<br><sub>3d ago</sub> | active |
+| 01 | [**Portfolio**](https://github.com/AyushPandey510/Portfolio) · [live ↗](https://portfolio-ayushpandey.vercel.app)<br><sub>Personal site. React, Vite, TypeScript, shadcn/ui, Tailwind.</sub> | `TypeScript` | [Add Counter Drop live link](https://github.com/AyushPandey510/Portfolio/commit/430d2b1e6a0276fd73314e9ab3909761fe8ece55)<br><sub>4d ago</sub> | active |
 | 02 | [**changeshare**](https://github.com/AyushPandey510/changeshare)<br><sub>No description yet.</sub> | `TypeScript` | [Switch CLI release to Node.js package](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97)<br><sub>2w ago</sub> | stable |
 | 03 | [**skill-navigator-hub**](https://github.com/AyushPandey510/skill-navigator-hub) · [live ↗](https://skill-navigator-hub.vercel.app)<br><sub>No description yet.</sub> | `TypeScript` | [feat: analytics](https://github.com/AyushPandey510/skill-navigator-hub/commit/48b6293a914ef4e58fa09d057992a856c5839f31)<br><sub>1mo ago</sub> | stable |
 | 04 | [**Space**](https://github.com/AyushPandey510/anonymous)<br><sub>Anonymous, location-gated chat rooms. Rust/Axum geofence engine + Flu…</sub> | `Dart` | [fix: config, envs and docker-ignore](https://github.com/AyushPandey510/anonymous/commit/0207cd3ce3c28e23619d12f4a9d9dd482fef2042)<br><sub>1mo ago</sub> | stable |
 | 05 | [**SwiftShare**](https://github.com/AyushPandey510/SwiftShare) · [live ↗](https://swift-share-tau.vercel.app)<br><sub>Send a file, share a 6-char code. Rust/warp API, React web, Flutter +…</sub> | `Dart` | [feat: added a structured design file in web a…](https://github.com/AyushPandey510/SwiftShare/commit/cdba414333e263f970623cd4cdeba2a58f9211c3)<br><sub>1mo ago</sub> | stable |
-| 06 | [**FieldTrace**](https://github.com/AyushPandey510/FieldTrace)<br><sub>No description yet.</sub> | `Dart` | [Quick Prototye Ready](https://github.com/AyushPandey510/FieldTrace/commit/ac9307ddcb5a7ebf881b348dcd3d3e91f26d7eb3)<br><sub>1mo ago</sub> | stable |
+| 06 | [**FieldTrace**](https://github.com/AyushPandey510/FieldTrace)<br><sub>No description yet.</sub> | `Dart` | [Quick Prototye Ready](https://github.com/AyushPandey510/FieldTrace/commit/ac9307ddcb5a7ebf881b348dcd3d3e91f26d7eb3)<br><sub>2mo ago</sub> | stable |
 | 07 | [**XpenseCalc**](https://github.com/AyushPandey510/expense_calc)<br><sub>Reads bank SMS, parses UPI/debit/credit and charts your spending. Flu…</sub> | `Dart` | [update: updated the readme](https://github.com/AyushPandey510/expense_calc/commit/71977b8c428a4dff69cc7899b784c2970bbadb55)<br><sub>2mo ago</sub> | stable |
 | 08 | [**Procastinator**](https://github.com/AyushPandey510/Procastinator)<br><sub>No description yet.</sub> | `Makefile` | [fix:resolved bugs](https://github.com/AyushPandey510/Procastinator/commit/0421924b70d957f609741e70d8b2a3a3cd81157e)<br><sub>3mo ago</sub> | stable |
 | 09 | [**School-Management-System**](https://github.com/AyushPandey510/School-Management-System)<br><sub>No description yet.</sub> | `Dart` | [Initial Commit](https://github.com/AyushPandey510/School-Management-System/commit/92d82f99df1ae1ad35e0efe22c4d786efece91a3)<br><sub>5mo ago</sub> | dormant |
@@ -275,6 +275,6 @@ pie showData title Where my commits went, last 12 months
 
 <p align="center">
 <!-- AUTO:UPDATED:START -->
-<sub>Updated automatically · 06 Nov 2026, 06:58 UTC</sub>
+<sub>Updated automatically · 06 Nov 2026, 19:31 UTC</sub>
 <!-- AUTO:UPDATED:END -->
 </p>
