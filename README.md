@@ -169,9 +169,9 @@ flowchart TB
 | <sub>5d ago</sub> | **Portfolio** | [`430d2b1`](https://github.com/AyushPandey510/Portfolio/commit/430d2b1e6a0276fd73314e9ab3909761fe8ece55) Add Counter Drop live link |
 | <sub>5d ago</sub> | **Portfolio** | [`39d22fd`](https://github.com/AyushPandey510/Portfolio/commit/39d22fd5b23b6064e1f937ec34ebf460f362ffea) Add Google Search Console verification |
 | <sub>5d ago</sub> | **Portfolio** | [`813dffb`](https://github.com/AyushPandey510/Portfolio/commit/813dffb16e1d09365e1ed68201d6b451c88832b7) Web v2 |
-| <sub>2w ago</sub> | **changeshare** | [`c8b163b`](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97) Switch CLI release to Node.js package |
-| <sub>2w ago</sub> | **changeshare** | [`aea76cc`](https://github.com/AyushPandey510/changeshare/commit/aea76cc0788dcffb7b09b1207aa67b87691718f1) Fix retries for compressed CLI downloads |
-| <sub>2w ago</sub> | **changeshare** | [`25175eb`](https://github.com/AyushPandey510/changeshare/commit/25175ebb5863de6ad6fb40cb6fe37ce7d7678ba8) Compress CLI release downloads |
+| <sub>3w ago</sub> | **changeshare** | [`c8b163b`](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97) Switch CLI release to Node.js package |
+| <sub>3w ago</sub> | **changeshare** | [`aea76cc`](https://github.com/AyushPandey510/changeshare/commit/aea76cc0788dcffb7b09b1207aa67b87691718f1) Fix retries for compressed CLI downloads |
+| <sub>3w ago</sub> | **changeshare** | [`25175eb`](https://github.com/AyushPandey510/changeshare/commit/25175ebb5863de6ad6fb40cb6fe37ce7d7678ba8) Compress CLI release downloads |
 | <sub>1mo ago</sub> | **skill-navigator-hub** | [`48b6293`](https://github.com/AyushPandey510/skill-navigator-hub/commit/48b6293a914ef4e58fa09d057992a856c5839f31) feat: analytics |
 | <sub>1mo ago</sub> | **skill-navigator-hub** | [`6181059`](https://github.com/AyushPandey510/skill-navigator-hub/commit/6181059fd9fd78ab9244c75127d7b946665947ff) feat: pwa , export and pomodoro |
 | <sub>1mo ago</sub> | **skill-navigator-hub** | [`4309bae`](https://github.com/AyushPandey510/skill-navigator-hub/commit/4309bae8a30ddada2a83dbd0db8132e84787fced) feat: full ui change |
@@ -243,7 +243,7 @@ pie showData title Where my commits went, last 12 months
 | # | Project | Stack | Last commit | Status |
 |:-:|:--|:--|:--|:-:|
 | 01 | [**Portfolio**](https://github.com/AyushPandey510/Portfolio) · [live ↗](https://portfolio-ayushpandey.vercel.app)<br><sub>Personal site. React, Vite, TypeScript, shadcn/ui, Tailwind.</sub> | `TypeScript` | [Add Counter Drop live link](https://github.com/AyushPandey510/Portfolio/commit/430d2b1e6a0276fd73314e9ab3909761fe8ece55)<br><sub>5d ago</sub> | active |
-| 02 | [**changeshare**](https://github.com/AyushPandey510/changeshare)<br><sub>No description yet.</sub> | `TypeScript` | [Switch CLI release to Node.js package](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97)<br><sub>2w ago</sub> | stable |
+| 02 | [**changeshare**](https://github.com/AyushPandey510/changeshare)<br><sub>No description yet.</sub> | `TypeScript` | [Switch CLI release to Node.js package](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97)<br><sub>3w ago</sub> | stable |
 | 03 | [**skill-navigator-hub**](https://github.com/AyushPandey510/skill-navigator-hub) · [live ↗](https://skill-navigator-hub.vercel.app)<br><sub>No description yet.</sub> | `TypeScript` | [feat: analytics](https://github.com/AyushPandey510/skill-navigator-hub/commit/48b6293a914ef4e58fa09d057992a856c5839f31)<br><sub>1mo ago</sub> | stable |
 | 04 | [**Space**](https://github.com/AyushPandey510/anonymous)<br><sub>Anonymous, location-gated chat rooms. Rust/Axum geofence engine + Flu…</sub> | `Dart` | [fix: config, envs and docker-ignore](https://github.com/AyushPandey510/anonymous/commit/0207cd3ce3c28e23619d12f4a9d9dd482fef2042)<br><sub>1mo ago</sub> | stable |
 | 05 | [**SwiftShare**](https://github.com/AyushPandey510/SwiftShare) · [live ↗](https://swift-share-tau.vercel.app)<br><sub>Send a file, share a 6-char code. Rust/warp API, React web, Flutter +…</sub> | `Dart` | [feat: added a structured design file in web a…](https://github.com/AyushPandey510/SwiftShare/commit/cdba414333e263f970623cd4cdeba2a58f9211c3)<br><sub>1mo ago</sub> | stable |
@@ -275,6 +275,6 @@ pie showData title Where my commits went, last 12 months
 
 <p align="center">
 <!-- AUTO:UPDATED:START -->
-<sub>Updated automatically · 08 Nov 2026, 06:18 UTC</sub>
+<sub>Updated automatically · 08 Nov 2026, 13:38 UTC</sub>
 <!-- AUTO:UPDATED:END -->
 </p>
