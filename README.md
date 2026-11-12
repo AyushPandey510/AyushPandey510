@@ -166,6 +166,7 @@ flowchart TB
 <!-- AUTO:COMMITS:START -->
 | When | Repo | Commit |
 |:--|:--|:--|
+| <sub>6h ago</sub> | **build_my_own_series** | [`e7d0efb`](https://github.com/AyushPandey510/build_my_own_series/commit/e7d0efb5a181277e41cf8757e8acc9b2dd9e8c15) made chat service in rust |
 | <sub>1w ago</sub> | **Portfolio** | [`430d2b1`](https://github.com/AyushPandey510/Portfolio/commit/430d2b1e6a0276fd73314e9ab3909761fe8ece55) Add Counter Drop live link |
 | <sub>1w ago</sub> | **Portfolio** | [`39d22fd`](https://github.com/AyushPandey510/Portfolio/commit/39d22fd5b23b6064e1f937ec34ebf460f362ffea) Add Google Search Console verification |
 | <sub>1w ago</sub> | **Portfolio** | [`813dffb`](https://github.com/AyushPandey510/Portfolio/commit/813dffb16e1d09365e1ed68201d6b451c88832b7) Web v2 |
@@ -175,7 +176,6 @@ flowchart TB
 | <sub>1mo ago</sub> | **skill-navigator-hub** | [`48b6293`](https://github.com/AyushPandey510/skill-navigator-hub/commit/48b6293a914ef4e58fa09d057992a856c5839f31) feat: analytics |
 | <sub>1mo ago</sub> | **skill-navigator-hub** | [`6181059`](https://github.com/AyushPandey510/skill-navigator-hub/commit/6181059fd9fd78ab9244c75127d7b946665947ff) feat: pwa , export and pomodoro |
 | <sub>1mo ago</sub> | **skill-navigator-hub** | [`4309bae`](https://github.com/AyushPandey510/skill-navigator-hub/commit/4309bae8a30ddada2a83dbd0db8132e84787fced) feat: full ui change |
-| <sub>1mo ago</sub> | **Space** | [`0207cd3`](https://github.com/AyushPandey510/anonymous/commit/0207cd3ce3c28e23619d12f4a9d9dd482fef2042) fix: config, envs and docker-ignore |
 <!-- AUTO:COMMITS:END -->
 
 ## Metrics
@@ -194,7 +194,7 @@ pie showData title Where my commits went, last 12 months
     "LifeEngine AI" : 13
     "skill-navigator-hub" : 10
     "School" : 9
-    "others" : 29
+    "others" : 30
 ```
 <!-- AUTO:PIE:END -->
 
@@ -209,6 +209,7 @@ pie showData title Where my commits went, last 12 months
 <!-- AUTO:COMPARE:START -->
 | Project | Commits | Active days (12m) | First commit | Latest commit | Main language | Size |
 |:--|--:|--:|:--|:--|:--|--:|
+| [build_my_own_series](https://github.com/AyushPandey510/build_my_own_series) | 1 | 1 | Nov 2026 | 12 Nov 2026 | `Makefile` | 141 KB |
 | [Portfolio](https://github.com/AyushPandey510/Portfolio) | 8 | 4 | Jan 2026 | 02 Nov 2026 | `TypeScript` | 449 KB |
 | [changeshare](https://github.com/AyushPandey510/changeshare) | 25 | 1 | Oct 2026 | 18 Oct 2026 | `TypeScript` | 76 KB |
 | [skill-navigator-hub](https://github.com/AyushPandey510/skill-navigator-hub) | 23 | 3 | Jan 2025 | 01 Oct 2026 | `TypeScript` | 280 KB |
@@ -242,31 +243,32 @@ pie showData title Where my commits went, last 12 months
 <!-- AUTO:ALL:START -->
 | # | Project | Stack | Last commit | Status |
 |:-:|:--|:--|:--|:-:|
-| 01 | [**Portfolio**](https://github.com/AyushPandey510/Portfolio) · [live ↗](https://portfolio-ayushpandey.vercel.app)<br><sub>Personal site. React, Vite, TypeScript, shadcn/ui, Tailwind.</sub> | `TypeScript` | [Add Counter Drop live link](https://github.com/AyushPandey510/Portfolio/commit/430d2b1e6a0276fd73314e9ab3909761fe8ece55)<br><sub>1w ago</sub> | active |
-| 02 | [**changeshare**](https://github.com/AyushPandey510/changeshare)<br><sub>No description yet.</sub> | `TypeScript` | [Switch CLI release to Node.js package](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97)<br><sub>3w ago</sub> | stable |
-| 03 | [**skill-navigator-hub**](https://github.com/AyushPandey510/skill-navigator-hub) · [live ↗](https://skill-navigator-hub.vercel.app)<br><sub>No description yet.</sub> | `TypeScript` | [feat: analytics](https://github.com/AyushPandey510/skill-navigator-hub/commit/48b6293a914ef4e58fa09d057992a856c5839f31)<br><sub>1mo ago</sub> | stable |
-| 04 | [**Space**](https://github.com/AyushPandey510/anonymous)<br><sub>Anonymous, location-gated chat rooms. Rust/Axum geofence engine + Flu…</sub> | `Dart` | [fix: config, envs and docker-ignore](https://github.com/AyushPandey510/anonymous/commit/0207cd3ce3c28e23619d12f4a9d9dd482fef2042)<br><sub>1mo ago</sub> | stable |
-| 05 | [**SwiftShare**](https://github.com/AyushPandey510/SwiftShare) · [live ↗](https://swift-share-tau.vercel.app)<br><sub>Send a file, share a 6-char code. Rust/warp API, React web, Flutter +…</sub> | `Dart` | [feat: added a structured design file in web a…](https://github.com/AyushPandey510/SwiftShare/commit/cdba414333e263f970623cd4cdeba2a58f9211c3)<br><sub>1mo ago</sub> | stable |
-| 06 | [**FieldTrace**](https://github.com/AyushPandey510/FieldTrace)<br><sub>No description yet.</sub> | `Dart` | [Quick Prototye Ready](https://github.com/AyushPandey510/FieldTrace/commit/ac9307ddcb5a7ebf881b348dcd3d3e91f26d7eb3)<br><sub>2mo ago</sub> | stable |
-| 07 | [**XpenseCalc**](https://github.com/AyushPandey510/expense_calc)<br><sub>Reads bank SMS, parses UPI/debit/credit and charts your spending. Flu…</sub> | `Dart` | [update: updated the readme](https://github.com/AyushPandey510/expense_calc/commit/71977b8c428a4dff69cc7899b784c2970bbadb55)<br><sub>3mo ago</sub> | stable |
-| 08 | [**Procastinator**](https://github.com/AyushPandey510/Procastinator)<br><sub>No description yet.</sub> | `Makefile` | [fix:resolved bugs](https://github.com/AyushPandey510/Procastinator/commit/0421924b70d957f609741e70d8b2a3a3cd81157e)<br><sub>3mo ago</sub> | stable |
-| 09 | [**School-Management-System**](https://github.com/AyushPandey510/School-Management-System)<br><sub>No description yet.</sub> | `Dart` | [Initial Commit](https://github.com/AyushPandey510/School-Management-System/commit/92d82f99df1ae1ad35e0efe22c4d786efece91a3)<br><sub>5mo ago</sub> | dormant |
-| 10 | [**indiamart-data-engineering-pipeline**](https://github.com/AyushPandey510/indiamart-data-engineering-pipeline)<br><sub>No description yet.</sub> | `Python` | [Fix readme](https://github.com/AyushPandey510/indiamart-data-engineering-pipeline/commit/17d6c0d3d5eed62689e83c5bb74184e3f49142a1)<br><sub>5mo ago</sub> | dormant |
-| 11 | [**LifeEngine AI**](https://github.com/AyushPandey510/LifeEngine) · [live ↗](https://life-engine-orcin.vercel.app)<br><sub>Chat with your future self. FastAPI, Postgres, Redis, Celery, FAISS m…</sub> | `Python` | [fix alembic multiple heads and shorten revisi…](https://github.com/AyushPandey510/LifeEngine/commit/e168fbe061ea47eaf8d6e24c66f0362c9558040d)<br><sub>6mo ago</sub> | dormant |
-| 12 | [**PDF-QA RAG**](https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3)<br><sub>Ask a PDF anything, answered only from its text. MiniLM embeddings, F…</sub> | `Python` | [Update README.md](https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3/commit/d5f4e7b3fc9d632d290937b62525a2d5a9684145)<br><sub>6mo ago</sub> | dormant |
+| 01 | [**build_my_own_series**](https://github.com/AyushPandey510/build_my_own_series)<br><sub>No description yet.</sub> | `Makefile` | [made chat service in rust](https://github.com/AyushPandey510/build_my_own_series/commit/e7d0efb5a181277e41cf8757e8acc9b2dd9e8c15)<br><sub>6h ago</sub> | active |
+| 02 | [**Portfolio**](https://github.com/AyushPandey510/Portfolio) · [live ↗](https://portfolio-ayushpandey.vercel.app)<br><sub>Personal site. React, Vite, TypeScript, shadcn/ui, Tailwind.</sub> | `TypeScript` | [Add Counter Drop live link](https://github.com/AyushPandey510/Portfolio/commit/430d2b1e6a0276fd73314e9ab3909761fe8ece55)<br><sub>1w ago</sub> | active |
+| 03 | [**changeshare**](https://github.com/AyushPandey510/changeshare)<br><sub>No description yet.</sub> | `TypeScript` | [Switch CLI release to Node.js package](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97)<br><sub>3w ago</sub> | stable |
+| 04 | [**skill-navigator-hub**](https://github.com/AyushPandey510/skill-navigator-hub) · [live ↗](https://skill-navigator-hub.vercel.app)<br><sub>No description yet.</sub> | `TypeScript` | [feat: analytics](https://github.com/AyushPandey510/skill-navigator-hub/commit/48b6293a914ef4e58fa09d057992a856c5839f31)<br><sub>1mo ago</sub> | stable |
+| 05 | [**Space**](https://github.com/AyushPandey510/anonymous)<br><sub>Anonymous, location-gated chat rooms. Rust/Axum geofence engine + Flu…</sub> | `Dart` | [fix: config, envs and docker-ignore](https://github.com/AyushPandey510/anonymous/commit/0207cd3ce3c28e23619d12f4a9d9dd482fef2042)<br><sub>1mo ago</sub> | stable |
+| 06 | [**SwiftShare**](https://github.com/AyushPandey510/SwiftShare) · [live ↗](https://swift-share-tau.vercel.app)<br><sub>Send a file, share a 6-char code. Rust/warp API, React web, Flutter +…</sub> | `Dart` | [feat: added a structured design file in web a…](https://github.com/AyushPandey510/SwiftShare/commit/cdba414333e263f970623cd4cdeba2a58f9211c3)<br><sub>1mo ago</sub> | stable |
+| 07 | [**FieldTrace**](https://github.com/AyushPandey510/FieldTrace)<br><sub>No description yet.</sub> | `Dart` | [Quick Prototye Ready](https://github.com/AyushPandey510/FieldTrace/commit/ac9307ddcb5a7ebf881b348dcd3d3e91f26d7eb3)<br><sub>2mo ago</sub> | stable |
+| 08 | [**XpenseCalc**](https://github.com/AyushPandey510/expense_calc)<br><sub>Reads bank SMS, parses UPI/debit/credit and charts your spending. Flu…</sub> | `Dart` | [update: updated the readme](https://github.com/AyushPandey510/expense_calc/commit/71977b8c428a4dff69cc7899b784c2970bbadb55)<br><sub>3mo ago</sub> | stable |
+| 09 | [**Procastinator**](https://github.com/AyushPandey510/Procastinator)<br><sub>No description yet.</sub> | `Makefile` | [fix:resolved bugs](https://github.com/AyushPandey510/Procastinator/commit/0421924b70d957f609741e70d8b2a3a3cd81157e)<br><sub>3mo ago</sub> | stable |
+| 10 | [**School-Management-System**](https://github.com/AyushPandey510/School-Management-System)<br><sub>No description yet.</sub> | `Dart` | [Initial Commit](https://github.com/AyushPandey510/School-Management-System/commit/92d82f99df1ae1ad35e0efe22c4d786efece91a3)<br><sub>5mo ago</sub> | dormant |
+| 11 | [**indiamart-data-engineering-pipeline**](https://github.com/AyushPandey510/indiamart-data-engineering-pipeline)<br><sub>No description yet.</sub> | `Python` | [Fix readme](https://github.com/AyushPandey510/indiamart-data-engineering-pipeline/commit/17d6c0d3d5eed62689e83c5bb74184e3f49142a1)<br><sub>5mo ago</sub> | dormant |
+| 12 | [**LifeEngine AI**](https://github.com/AyushPandey510/LifeEngine) · [live ↗](https://life-engine-orcin.vercel.app)<br><sub>Chat with your future self. FastAPI, Postgres, Redis, Celery, FAISS m…</sub> | `Python` | [fix alembic multiple heads and shorten revisi…](https://github.com/AyushPandey510/LifeEngine/commit/e168fbe061ea47eaf8d6e24c66f0362c9558040d)<br><sub>6mo ago</sub> | dormant |
 
-<details><summary><b>+ 8 more repos</b></summary>
+<details><summary><b>+ 9 more repos</b></summary>
 
 | # | Project | Stack | Last commit | Status |
 |:-:|:--|:--|:--|:-:|
-| 13 | [**Placement_study_Material**](https://github.com/AyushPandey510/Placement_study_Material) · [live ↗](https://placement-study-material.vercel.app)<br><sub>No description yet.</sub> | `Python` | [fix: update Groq model name and fix indentati…](https://github.com/AyushPandey510/Placement_study_Material/commit/9b52d923f1723ccd0187e935c27824c452bd56e0)<br><sub>6mo ago</sub> | dormant |
-| 14 | [**School**](https://github.com/AyushPandey510/School) · [live ↗](https://school-two-sand.vercel.app)<br><sub>Edumentors Kids International School</sub> | `JavaScript` | [resolved the issue of learn more button in ad…](https://github.com/AyushPandey510/School/commit/0b84a1039bbf2d8a24c94997f969eb3077ee06ef)<br><sub>7mo ago</sub> | dormant |
-| 15 | [**Stock_Market**](https://github.com/AyushPandey510/Stock_Market)<br><sub>No description yet.</sub> | `Python` | [Initial commit](https://github.com/AyushPandey510/Stock_Market/commit/0a7983a0e12d6cb19eece95fe298a04ccccecc45)<br><sub>7mo ago</sub> | dormant |
-| 16 | [**Madhav-gpt**](https://github.com/AyushPandey510/Madhav-gpt)<br><sub>No description yet.</sub> | `JavaScript` | [Fixed the issues listed in BUGFIXES.md](https://github.com/AyushPandey510/Madhav-gpt/commit/fd7404c888822d8720abf808022173317488c6ef)<br><sub>7mo ago</sub> | dormant |
-| 17 | [**Algerian_Forest_**](https://github.com/AyushPandey510/Algerian_Forest_)<br><sub>No description yet.</sub> | `Python` | [score changes](https://github.com/AyushPandey510/Algerian_Forest_/commit/dbf4fcf392f81fc8afd53592a12cf00534146919)<br><sub>7mo ago</sub> | dormant |
-| 18 | [**PhisGuard**](https://github.com/AyushPandey510/Phis_Shield)<br><sub>Chrome extension + Flask API that scores URLs &amp; emails with scikit-le…</sub> | `Python` | [Final Changes before submission](https://github.com/AyushPandey510/Phis_Shield/commit/87ad0f3b2ca1f08e21174ff721982cc6e82106a7)<br><sub>11mo ago</sub> | dormant |
-| 19 | [**RustCart API**](https://github.com/AyushPandey510/Rust-Ecom-Api)<br><sub>E-commerce backend: Actix Web, Postgres, JWT/RBAC, Razorpay, Swagger.</sub> | `Rust` | [swagger sand other errors resolved](https://github.com/AyushPandey510/Rust-Ecom-Api/commit/dd9b7d4b5f083f06035e2572c2dcff9b28a27d20)<br><sub>1y ago</sub> | dormant |
-| 20 | [**Zettabyte**](https://github.com/AyushPandey510/Zettabyte)<br><sub>Event manager with QR check-in. FastAPI + SQLAlchemy backend, React/V…</sub> | `TypeScript` | [frontend added](https://github.com/AyushPandey510/Zettabyte/commit/a74df207f319234978c4732449daa48e7ba02325)<br><sub>1y ago</sub> | dormant |
+| 13 | [**PDF-QA RAG**](https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3)<br><sub>Ask a PDF anything, answered only from its text. MiniLM embeddings, F…</sub> | `Python` | [Update README.md](https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3/commit/d5f4e7b3fc9d632d290937b62525a2d5a9684145)<br><sub>6mo ago</sub> | dormant |
+| 14 | [**Placement_study_Material**](https://github.com/AyushPandey510/Placement_study_Material) · [live ↗](https://placement-study-material.vercel.app)<br><sub>No description yet.</sub> | `Python` | [fix: update Groq model name and fix indentati…](https://github.com/AyushPandey510/Placement_study_Material/commit/9b52d923f1723ccd0187e935c27824c452bd56e0)<br><sub>6mo ago</sub> | dormant |
+| 15 | [**School**](https://github.com/AyushPandey510/School) · [live ↗](https://school-two-sand.vercel.app)<br><sub>Edumentors Kids International School</sub> | `JavaScript` | [resolved the issue of learn more button in ad…](https://github.com/AyushPandey510/School/commit/0b84a1039bbf2d8a24c94997f969eb3077ee06ef)<br><sub>7mo ago</sub> | dormant |
+| 16 | [**Stock_Market**](https://github.com/AyushPandey510/Stock_Market)<br><sub>No description yet.</sub> | `Python` | [Initial commit](https://github.com/AyushPandey510/Stock_Market/commit/0a7983a0e12d6cb19eece95fe298a04ccccecc45)<br><sub>7mo ago</sub> | dormant |
+| 17 | [**Madhav-gpt**](https://github.com/AyushPandey510/Madhav-gpt)<br><sub>No description yet.</sub> | `JavaScript` | [Fixed the issues listed in BUGFIXES.md](https://github.com/AyushPandey510/Madhav-gpt/commit/fd7404c888822d8720abf808022173317488c6ef)<br><sub>7mo ago</sub> | dormant |
+| 18 | [**Algerian_Forest_**](https://github.com/AyushPandey510/Algerian_Forest_)<br><sub>No description yet.</sub> | `Python` | [score changes](https://github.com/AyushPandey510/Algerian_Forest_/commit/dbf4fcf392f81fc8afd53592a12cf00534146919)<br><sub>7mo ago</sub> | dormant |
+| 19 | [**PhisGuard**](https://github.com/AyushPandey510/Phis_Shield)<br><sub>Chrome extension + Flask API that scores URLs &amp; emails with scikit-le…</sub> | `Python` | [Final Changes before submission](https://github.com/AyushPandey510/Phis_Shield/commit/87ad0f3b2ca1f08e21174ff721982cc6e82106a7)<br><sub>11mo ago</sub> | dormant |
+| 20 | [**RustCart API**](https://github.com/AyushPandey510/Rust-Ecom-Api)<br><sub>E-commerce backend: Actix Web, Postgres, JWT/RBAC, Razorpay, Swagger.</sub> | `Rust` | [swagger sand other errors resolved](https://github.com/AyushPandey510/Rust-Ecom-Api/commit/dd9b7d4b5f083f06035e2572c2dcff9b28a27d20)<br><sub>1y ago</sub> | dormant |
+| 21 | [**Zettabyte**](https://github.com/AyushPandey510/Zettabyte)<br><sub>Event manager with QR check-in. FastAPI + SQLAlchemy backend, React/V…</sub> | `TypeScript` | [frontend added](https://github.com/AyushPandey510/Zettabyte/commit/a74df207f319234978c4732449daa48e7ba02325)<br><sub>1y ago</sub> | dormant |
 
 </details>
 <!-- AUTO:ALL:END -->
@@ -275,6 +277,6 @@ pie showData title Where my commits went, last 12 months
 
 <p align="center">
 <!-- AUTO:UPDATED:START -->
-<sub>Updated automatically · 12 Nov 2026, 07:24 UTC</sub>
+<sub>Updated automatically · 12 Nov 2026, 20:06 UTC</sub>
 <!-- AUTO:UPDATED:END -->
 </p>
