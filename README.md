@@ -166,7 +166,7 @@ flowchart TB
 <!-- AUTO:COMMITS:START -->
 | When | Repo | Commit |
 |:--|:--|:--|
-| <sub>5d ago</sub> | **build_my_own_series** | [`e7d0efb`](https://github.com/AyushPandey510/build_my_own_series/commit/e7d0efb5a181277e41cf8757e8acc9b2dd9e8c15) made chat service in rust |
+| <sub>6d ago</sub> | **build_my_own_series** | [`e7d0efb`](https://github.com/AyushPandey510/build_my_own_series/commit/e7d0efb5a181277e41cf8757e8acc9b2dd9e8c15) made chat service in rust |
 | <sub>2w ago</sub> | **Portfolio** | [`430d2b1`](https://github.com/AyushPandey510/Portfolio/commit/430d2b1e6a0276fd73314e9ab3909761fe8ece55) Add Counter Drop live link |
 | <sub>2w ago</sub> | **Portfolio** | [`39d22fd`](https://github.com/AyushPandey510/Portfolio/commit/39d22fd5b23b6064e1f937ec34ebf460f362ffea) Add Google Search Console verification |
 | <sub>2w ago</sub> | **Portfolio** | [`813dffb`](https://github.com/AyushPandey510/Portfolio/commit/813dffb16e1d09365e1ed68201d6b451c88832b7) Web v2 |
@@ -243,7 +243,7 @@ pie showData title Where my commits went, last 12 months
 <!-- AUTO:ALL:START -->
 | # | Project | Stack | Last commit | Status |
 |:-:|:--|:--|:--|:-:|
-| 01 | [**build_my_own_series**](https://github.com/AyushPandey510/build_my_own_series)<br><sub>No description yet.</sub> | `Makefile` | [made chat service in rust](https://github.com/AyushPandey510/build_my_own_series/commit/e7d0efb5a181277e41cf8757e8acc9b2dd9e8c15)<br><sub>5d ago</sub> | active |
+| 01 | [**build_my_own_series**](https://github.com/AyushPandey510/build_my_own_series)<br><sub>No description yet.</sub> | `Makefile` | [made chat service in rust](https://github.com/AyushPandey510/build_my_own_series/commit/e7d0efb5a181277e41cf8757e8acc9b2dd9e8c15)<br><sub>6d ago</sub> | active |
 | 02 | [**Portfolio**](https://github.com/AyushPandey510/Portfolio) · [live ↗](https://portfolio-ayushpandey.vercel.app)<br><sub>Personal site. React, Vite, TypeScript, shadcn/ui, Tailwind.</sub> | `TypeScript` | [Add Counter Drop live link](https://github.com/AyushPandey510/Portfolio/commit/430d2b1e6a0276fd73314e9ab3909761fe8ece55)<br><sub>2w ago</sub> | stable |
 | 03 | [**changeshare**](https://github.com/AyushPandey510/changeshare)<br><sub>No description yet.</sub> | `TypeScript` | [Switch CLI release to Node.js package](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97)<br><sub>1mo ago</sub> | stable |
 | 04 | [**skill-navigator-hub**](https://github.com/AyushPandey510/skill-navigator-hub) · [live ↗](https://skill-navigator-hub.vercel.app)<br><sub>No description yet.</sub> | `TypeScript` | [feat: analytics](https://github.com/AyushPandey510/skill-navigator-hub/commit/48b6293a914ef4e58fa09d057992a856c5839f31)<br><sub>1mo ago</sub> | stable |
@@ -252,7 +252,7 @@ pie showData title Where my commits went, last 12 months
 | 07 | [**FieldTrace**](https://github.com/AyushPandey510/FieldTrace)<br><sub>No description yet.</sub> | `Dart` | [Quick Prototye Ready](https://github.com/AyushPandey510/FieldTrace/commit/ac9307ddcb5a7ebf881b348dcd3d3e91f26d7eb3)<br><sub>2mo ago</sub> | stable |
 | 08 | [**XpenseCalc**](https://github.com/AyushPandey510/expense_calc)<br><sub>Reads bank SMS, parses UPI/debit/credit and charts your spending. Flu…</sub> | `Dart` | [update: updated the readme](https://github.com/AyushPandey510/expense_calc/commit/71977b8c428a4dff69cc7899b784c2970bbadb55)<br><sub>3mo ago</sub> | stable |
 | 09 | [**Procastinator**](https://github.com/AyushPandey510/Procastinator)<br><sub>No description yet.</sub> | `Makefile` | [fix:resolved bugs](https://github.com/AyushPandey510/Procastinator/commit/0421924b70d957f609741e70d8b2a3a3cd81157e)<br><sub>3mo ago</sub> | stable |
-| 10 | [**School-Management-System**](https://github.com/AyushPandey510/School-Management-System)<br><sub>No description yet.</sub> | `Dart` | [Initial Commit](https://github.com/AyushPandey510/School-Management-System/commit/92d82f99df1ae1ad35e0efe22c4d786efece91a3)<br><sub>5mo ago</sub> | dormant |
+| 10 | [**School-Management-System**](https://github.com/AyushPandey510/School-Management-System)<br><sub>No description yet.</sub> | `Dart` | [Initial Commit](https://github.com/AyushPandey510/School-Management-System/commit/92d82f99df1ae1ad35e0efe22c4d786efece91a3)<br><sub>6mo ago</sub> | dormant |
 | 11 | [**indiamart-data-engineering-pipeline**](https://github.com/AyushPandey510/indiamart-data-engineering-pipeline)<br><sub>No description yet.</sub> | `Python` | [Fix readme](https://github.com/AyushPandey510/indiamart-data-engineering-pipeline/commit/17d6c0d3d5eed62689e83c5bb74184e3f49142a1)<br><sub>6mo ago</sub> | dormant |
 | 12 | [**LifeEngine AI**](https://github.com/AyushPandey510/LifeEngine) · [live ↗](https://life-engine-orcin.vercel.app)<br><sub>Chat with your future self. FastAPI, Postgres, Redis, Celery, FAISS m…</sub> | `Python` | [fix alembic multiple heads and shorten revisi…](https://github.com/AyushPandey510/LifeEngine/commit/e168fbe061ea47eaf8d6e24c66f0362c9558040d)<br><sub>6mo ago</sub> | dormant |
 
@@ -277,6 +277,6 @@ pie showData title Where my commits went, last 12 months
 
 <p align="center">
 <!-- AUTO:UPDATED:START -->
-<sub>Updated automatically · 18 Nov 2026, 07:41 UTC</sub>
+<sub>Updated automatically · 18 Nov 2026, 20:41 UTC</sub>
 <!-- AUTO:UPDATED:END -->
 </p>
