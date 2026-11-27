@@ -243,7 +243,7 @@ pie showData title Where my commits went, last 12 months
 <!-- AUTO:ALL:START -->
 | # | Project | Stack | Last commit | Status |
 |:-:|:--|:--|:--|:-:|
-| 01 | [**build_my_own_series**](https://github.com/AyushPandey510/build_my_own_series)<br><sub>No description yet.</sub> | `Makefile` | [made chat service in rust](https://github.com/AyushPandey510/build_my_own_series/commit/e7d0efb5a181277e41cf8757e8acc9b2dd9e8c15)<br><sub>2w ago</sub> | active |
+| 01 | [**build_my_own_series**](https://github.com/AyushPandey510/build_my_own_series)<br><sub>No description yet.</sub> | `Makefile` | [made chat service in rust](https://github.com/AyushPandey510/build_my_own_series/commit/e7d0efb5a181277e41cf8757e8acc9b2dd9e8c15)<br><sub>2w ago</sub> | stable |
 | 02 | [**Portfolio**](https://github.com/AyushPandey510/Portfolio) · [live ↗](https://portfolio-ayushpandey.vercel.app)<br><sub>Personal site. React, Vite, TypeScript, shadcn/ui, Tailwind.</sub> | `TypeScript` | [Add Counter Drop live link](https://github.com/AyushPandey510/Portfolio/commit/430d2b1e6a0276fd73314e9ab3909761fe8ece55)<br><sub>3w ago</sub> | stable |
 | 03 | [**changeshare**](https://github.com/AyushPandey510/changeshare)<br><sub>No description yet.</sub> | `TypeScript` | [Switch CLI release to Node.js package](https://github.com/AyushPandey510/changeshare/commit/c8b163bf5f8eea0bbc7d7278a45bbbb761c37c97)<br><sub>1mo ago</sub> | stable |
 | 04 | [**skill-navigator-hub**](https://github.com/AyushPandey510/skill-navigator-hub) · [live ↗](https://skill-navigator-hub.vercel.app)<br><sub>No description yet.</sub> | `TypeScript` | [feat: analytics](https://github.com/AyushPandey510/skill-navigator-hub/commit/48b6293a914ef4e58fa09d057992a856c5839f31)<br><sub>1mo ago</sub> | stable |
@@ -261,9 +261,9 @@ pie showData title Where my commits went, last 12 months
 | # | Project | Stack | Last commit | Status |
 |:-:|:--|:--|:--|:-:|
 | 13 | [**PDF-QA RAG**](https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3)<br><sub>Ask a PDF anything, answered only from its text. MiniLM embeddings, F…</sub> | `Python` | [Update README.md](https://github.com/AyushPandey510/PDF-QA-RAG-OLLAMA-llama3/commit/d5f4e7b3fc9d632d290937b62525a2d5a9684145)<br><sub>6mo ago</sub> | dormant |
-| 14 | [**Placement_study_Material**](https://github.com/AyushPandey510/Placement_study_Material) · [live ↗](https://placement-study-material.vercel.app)<br><sub>No description yet.</sub> | `Python` | [fix: update Groq model name and fix indentati…](https://github.com/AyushPandey510/Placement_study_Material/commit/9b52d923f1723ccd0187e935c27824c452bd56e0)<br><sub>6mo ago</sub> | dormant |
+| 14 | [**Placement_study_Material**](https://github.com/AyushPandey510/Placement_study_Material) · [live ↗](https://placement-study-material.vercel.app)<br><sub>No description yet.</sub> | `Python` | [fix: update Groq model name and fix indentati…](https://github.com/AyushPandey510/Placement_study_Material/commit/9b52d923f1723ccd0187e935c27824c452bd56e0)<br><sub>7mo ago</sub> | dormant |
 | 15 | [**School**](https://github.com/AyushPandey510/School) · [live ↗](https://school-two-sand.vercel.app)<br><sub>Edumentors Kids International School</sub> | `JavaScript` | [resolved the issue of learn more button in ad…](https://github.com/AyushPandey510/School/commit/0b84a1039bbf2d8a24c94997f969eb3077ee06ef)<br><sub>7mo ago</sub> | dormant |
-| 16 | [**Stock_Market**](https://github.com/AyushPandey510/Stock_Market)<br><sub>No description yet.</sub> | `Python` | [Initial commit](https://github.com/AyushPandey510/Stock_Market/commit/0a7983a0e12d6cb19eece95fe298a04ccccecc45)<br><sub>7mo ago</sub> | dormant |
+| 16 | [**Stock_Market**](https://github.com/AyushPandey510/Stock_Market)<br><sub>No description yet.</sub> | `Python` | [Initial commit](https://github.com/AyushPandey510/Stock_Market/commit/0a7983a0e12d6cb19eece95fe298a04ccccecc45)<br><sub>8mo ago</sub> | dormant |
 | 17 | [**Madhav-gpt**](https://github.com/AyushPandey510/Madhav-gpt)<br><sub>No description yet.</sub> | `JavaScript` | [Fixed the issues listed in BUGFIXES.md](https://github.com/AyushPandey510/Madhav-gpt/commit/fd7404c888822d8720abf808022173317488c6ef)<br><sub>8mo ago</sub> | dormant |
 | 18 | [**Algerian_Forest_**](https://github.com/AyushPandey510/Algerian_Forest_)<br><sub>No description yet.</sub> | `Python` | [score changes](https://github.com/AyushPandey510/Algerian_Forest_/commit/dbf4fcf392f81fc8afd53592a12cf00534146919)<br><sub>8mo ago</sub> | dormant |
 | 19 | [**PhisGuard**](https://github.com/AyushPandey510/Phis_Shield)<br><sub>Chrome extension + Flask API that scores URLs &amp; emails with scikit-le…</sub> | `Python` | [Final Changes before submission](https://github.com/AyushPandey510/Phis_Shield/commit/87ad0f3b2ca1f08e21174ff721982cc6e82106a7)<br><sub>12mo ago</sub> | dormant |
@@ -277,6 +277,6 @@ pie showData title Where my commits went, last 12 months
 
 <p align="center">
 <!-- AUTO:UPDATED:START -->
-<sub>Updated automatically · 27 Nov 2026, 08:47 UTC</sub>
+<sub>Updated automatically · 27 Nov 2026, 21:27 UTC</sub>
 <!-- AUTO:UPDATED:END -->
 </p>
